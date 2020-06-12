@@ -1,0 +1,33 @@
+.image-background {
+    /* We cannot use just 'background:' here because that would overwrite the background-color */
+    background-image: url("../img/header-background.svg");
+    background-repeat: no-repeat;
+    background-position: 105% 30%;
+    background-size: 55%;
+}
+.header-logo a::before {
+    background: url('../img/logo.svg') no-repeat bottom;
+}
+.header-logo a::after {
+    background: none;
+}
+.top-nav > .container > .content-background {
+    background: none;
+    margin-bottom: 10rem;
+}
+.icon {
+    background-repeat: no-repeat;
+    background-size: 24px;
+    margin-left: 1rem;
+    width: 24px;
+    height: 24px;
+}
+.icon-slack {
+    background-image: url("../img/Slack_Mark_Monochrome_White.svg");
+}
+.icon-github {
+    background-image: url("../img/GitHub-Mark-Light-32px.png");
+}
+.icon-trello {
+    background-image: url("../img/trello-mark-white.svg");
+}
