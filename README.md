@@ -19,7 +19,7 @@ These goals are maintained by the community manager of the Ministry of Health. S
 * Set the right atmosphere and expectations for people that want to help out
 * Make it clear that this is partly a community driven project. Everyone is allowed to contribute, criticize, etc.
 
-## Tartget audience
+## Target audience
 
 (Potential) community members. Specifically:
 * Programmers
