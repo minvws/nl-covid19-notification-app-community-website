@@ -31,15 +31,15 @@ Over time, we hope to engage a broader group of people, that can also help with 
 ## Look and feel
 
 * We are building this app in collaboration with the people in NL.
-* Does not have to be super tidy, a little messyness wil lower the entry barrier.
+* Does not have to be super tidy, a little messyness wil perhaps lower the entry barrier.
 * Friendly and welcoming
 * Simple language
-* Easy to use for a broad range of people, not just the die hards. Do not assume that people will know what Github, Slack, etc is. Although the die-hards are probably the biggest audience, we do not want to scare others :-).
+* Easy to use for a broad range of people, not just the die hards. Do not assume that people will know what Github, Slack, etc is. Although the die-hards are probably the biggest audience, we do not want to scare away others :-).
 
 ## To do
 
 * Move this to do list to a Github project board
-* Internationalization
+* Translation of content into English
 * Find a project maintainer
 * User test the webpage, make modifications to make sure the website is understandable for a broader audience.
 
@@ -54,6 +54,9 @@ Over time, we hope to engage a broader group of people, that can also help with 
 GitHub Pages support the static site generator [Jekyll](https://jekyllrb.com/).
 Jekyll supports [Markdown](https://daringfireball.net/projects/markdown/), [Liquid](https://github.com/Shopify/liquid/wiki), HTML and CSS to create a complete static website.
 By using the Liquid templating language, content can be stored in Markdown.
+
+### Editing content
+Content can be edited via pull requests via the [blocks folder](https://github.com/minvws/nl-covid19-notification-app-community-website/tree/master/_blocks) in this repository. 
 
 ### How to add a block
 
