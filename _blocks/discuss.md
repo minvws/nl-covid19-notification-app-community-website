@@ -2,30 +2,29 @@
 lang: nl
 index: 1
 title: Praat mee
-subtitle: Voer discussies met het team en anderen geintereseerden op de CodeForNL Slack community
+subtitle: Ga in gesprek met het team en andere geïntereseerden via de CodeForNL Slack community
 list:
- - title: "#notificatie-app"
+ - title: "Kanaal #notificatie-app"
    href: "#"
    text: Algemene discussies en vragen over het project
- - title: "#notificatie-app-design"
+ - title: "Kanaal #notificatie-app-design"
    href: "#"
-   text: Discussies over ontwerp, user experience en accessibility. 
- - title: "#notificatie-app-architectuur"
+   text: Denk mee over het ontwerp, de user experience en accessibility. 
+ - title: "Kanaal #notificatie-app-communicatie-community"
    href: "#"
-   text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla finibus cursus. 
- - title: "#notificatie-app-android"
+   text: Help mee met de communicatie en communityvorming 
+ - title: "Overige kanalen"
    href: "#"
-   text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla finibus cursus. 
- - title: "#notificatie-app-ios"
-   href: "#"
-   text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla finibus cursus. 
-button:
-  text: Naar de Slack
+   text: Er zijn ook kanalen over backend, architectuur, Android en iOS development, Bluetooth, etc.  
+ button:
+  text: Praat mee via Slack
   icon: slack
   href: "#"
 ---
-Code for NL is de Nederlandse community van developers en designers die samenwerken aan een open, eerlijke, en inclusieve digitale overheid en samenleving.
+Stichting [Code for NL](https://codefor.nl) is de Nederlandse community van developers en designers die samenwerken aan een open, eerlijke, en inclusieve digitale overheid en samenleving.
 
-De community is al sinds het begin van de corona-crisis actief in nadenken over slimme oplossingen die ons kunnen helpen tijdens deze crisis. Discussies over de notificatie-app worden hier ook actief gevoerd.
+Het Covid-19 notificatie-app project is te gast bij de Code for NL community op Slack. Code for NL is niet direct aan het project verbonden.
 
-Het Covid-19 notificatie-app project is te gast bij de CodeForNL Slack community en CodeForNL is niet direct aan het project verbonden.
+We streven naar een vriendelijke, constructieve en respectvolle sfeer. We werken er samen en we gaan het gesprek aan. Er is alle ruimte voor verschillende meningen. 
+
+**Let op**: naast de #notificatie-app kanalen zul je ook andere kanalen zien die niet gerelateerd zijn aan dit project. Uiteraard ben je ook in die kanalen welkom.
