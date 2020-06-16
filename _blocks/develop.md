@@ -6,19 +6,19 @@ subtitle: De app is open source en je kunt de ontwikkeling volgen op Github. Ook
 list:
  - title: Coordination
    href: "#"
-   text: Hier vind je de requirements en architectuurdocumenten
+   text: Hier vind je het programma van eisen, architectuurdocumenten en meer
  - title: Design
    href: "#"
    text: Hier vind je de laatste designs, job stories en gebruikersonderzoeken. 
  - title: Backend
    href: "#"
-   text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla finibus cursus.
+   text: De backend code (in ontwikkeling).
  - title: iOS App
    href: "#"
-   text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla finibus cursus.
+   text: De iOS code (in ontwikkeling). 
  - title: Android App
    href: "#"
-   text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla finibus cursus.
+   text: De Android code (in ontwikkeling).
 button:
   text: Naar de Github
   icon: github
