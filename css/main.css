@@ -13,7 +13,6 @@
 }
 .top-nav > .container > .content-background {
     background: none;
-    margin-bottom: 10rem;
 }
 .icon {
     background-repeat: no-repeat;
@@ -30,4 +29,9 @@
 }
 .icon-trello {
     background-image: url("../img/trello-mark-white.svg");
+}
+@media (max-width: 992px) {
+  .top-nav > .container > .content-background {
+    margin-bottom: 0rem;
+  }
 }
