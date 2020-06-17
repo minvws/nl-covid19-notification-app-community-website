@@ -1,6 +1,6 @@
 ---
 lang: nl
-index: 5
+index: 4
 title: Omgangsregels
 subtitle: Voor een prettige samenwerking stellen we een paar basisprincipes
 button:

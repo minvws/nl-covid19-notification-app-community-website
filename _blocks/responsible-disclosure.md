@@ -1,6 +1,6 @@
 ---
 lang: nl
-index: 6
+index: 5
 title: Beveiligingsproblemen melden
 subtitle: Een beveiligingsprobleem gevonden? We gaan hier secuur mee om.
 button:
