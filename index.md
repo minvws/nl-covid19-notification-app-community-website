@@ -8,7 +8,7 @@ lang-ref: covid19-notification-app-community-index
 {% assign rows = blocks.size | divided_by: 2.0 | ceil %}
 {% for block in blocks %}
 <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-offset-1 col-md-10">
         <div class="content-background">
             <div class="content">
                 <header class="content__header">
