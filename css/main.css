@@ -5,6 +5,11 @@
     background-position: 105% 30%;
     background-size: 55%;
 }
+@media (max-width: 768px) {
+    .image-background {
+        background-image: none;
+    }
+}
 .header-logo a::before {
     background: url('../img/logo.svg') no-repeat bottom;
 }
@@ -30,14 +35,15 @@
 .icon-trello {
     background-image: url("../img/trello-mark-white.svg");
 }
-@media (max-width: 992px) {
-  .top-nav > .container > .content-background {
-    margin-bottom: 0rem;
-  }
-}
 
 .footer__content {
   color: black;
   background: #ffb612; /* Workaround bug in UNO */
 }
 
+.hero {
+    margin-top: -2rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    margin-bottom: 2rem;
+}
