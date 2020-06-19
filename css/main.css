@@ -35,3 +35,9 @@
     margin-bottom: 0rem;
   }
 }
+
+.footer__content {
+  color: black;
+  background: #ffb612; /* Workaround bug in UNO */
+}
+
