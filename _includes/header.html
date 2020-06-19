@@ -1,7 +1,7 @@
 <header class="header" role="banner">
     <div class="header-logo">
         <a href="." title="{{ site.data.translations.minvwslogo[page.lang] }}">
-            <span class="screenreader-only">{{ site.data.translations.minvws[page.lang] }}</span>
+            <span role="img" class="screenreader-only">{{ site.data.translations.minvws[page.lang] }}</span>
         </a>
     </div>
 </header>
@@ -9,7 +9,7 @@
     <div class="container">
         <ul class="nav">
             <li class="nav__item">
-                <a class="nav__link nav__link--active" href=".">{{ site.data.translations.community[page.lang] }}</a>
+                <a class="nav__link nav__link--active" href="." aria-current="page">{{ site.data.translations.community[page.lang] }}</a>
             </li>
             <li class="nav__item">
                 <a class="nav__link" href="{{ site.data.translations.statuslink[page.lang] }}"
