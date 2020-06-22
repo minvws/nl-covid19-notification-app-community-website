@@ -7,4 +7,4 @@ button:
   text: Naar de Code of Conduct
   href: https://github.com/minvws/.github/blob/master/CODE_OF_CONDUCT.md
 ---
-We hopen een voor iedereen een welkome en inclusieve sfeer te bouwen. Hier voor stellen we een aantal beloftes en standaarden in onze code of conduct.
+We hopen voor iedereen een welkome en inclusieve sfeer te bouwen. Hiervoor stellen we een aantal beloftes en standaarden in onze code of conduct.
