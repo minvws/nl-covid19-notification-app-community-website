@@ -21,7 +21,7 @@ button:
   icon: slack
   href: "https://doemee.codefor.nl"
 ---
-Stichting [Code for NL](https://codefor.nl) is de Nederlandse community van developers en designers die samenwerken aan een open, eerlijke, en inclusieve digitale overheid en samenleving.
+Stichting [Code for NL](https://www.codefor.nl) is de Nederlandse community van developers en designers die samenwerken aan een open, eerlijke, en inclusieve digitale overheid en samenleving.
 
 Het Covid-19 notificatie-app project is te gast bij de Code for NL community op Slack. Code for NL is niet direct aan het project verbonden.
 
