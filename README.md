@@ -30,18 +30,18 @@ Over time, we hope to engage a broader group of people, that can also help with 
 
 ## Look and feel
 
-* We are building this app in collaboration with the people in NL.
-* Does not have to be super tidy, a little messyness wil perhaps lower the entry barrier.
-* Friendly and welcoming
 * Simple language
-* Easy to use for a broad range of people, not just the die hards. Do not assume that people will know what GitHub, Slack, etc is. Although the die-hards are probably the biggest audience, we do not want to scare away others :-).
+* Friendly and welcoming
+* We are building this app in collaboration with the people of the Netherlands
+* Does not have to be super tidy, a little messyness wil perhaps lower the entry barrier
+* Easy to use for a broad range of people; do not assume that people will know what GitHub, Slack, etc is
 
 ## To do
 
 * Move this to do list to a GitHub project board
 * Translation of content into English
 * Find a project maintainer
-* User test the webpage, make modifications to make sure the website is understandable for a broader audience.
+* User test the webpage, make modifications to make sure the website is understandable for a broader audience
 
 ## How is this project set up?
 
