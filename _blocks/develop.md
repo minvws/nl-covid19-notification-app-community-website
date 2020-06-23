@@ -2,7 +2,7 @@
 lang: nl
 index: 2
 title: Ontwikkel mee
-subtitle: De broncode van de app is publiekelijk beschikbaar en je kunt de ontwikkeling volgen op GitHub.
+subtitle: De app is open-source software en je kunt de ontwikkeling volgen op GitHub.
 
 button:
   text: Naar het GitHub account van VWS
