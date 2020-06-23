@@ -28,4 +28,4 @@ Het Covid-19 notificatie-app project is te gast bij de Code for NL community op 
 We streven naar een vriendelijke, constructieve en respectvolle sfeer. We werken er samen en we gaan het gesprek aan. Er is alle ruimte voor verschillende meningen.
 
 
-**Let op**: naast de #notificatie-app kanalen zul je ook andere kanalen zien die niet gerelateerd zijn aan dit project. Uiteraard ben je ook in die kanalen welkom.
+**Let op**: naast de kanalen met het `#notificatie-app` voorvoegsel zul je ook andere kanalen zien die niet gerelateerd zijn aan dit project. Uiteraard ben je ook in die kanalen welkom.

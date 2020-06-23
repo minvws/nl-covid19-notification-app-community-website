@@ -9,4 +9,4 @@ button:
 ---
 Veiligheid van de app is een topprioriteit. Als je een beveiligingsprobleem ontdekt, willen we hier graag van horen zodat we stappen kunnen ondernemen om het op te lossen.
 
-Er is een responsible disclosure beleid waarin uitgelegd wordt hoe je je bevindingen aan ons kan melden
+Er is een [responsible disclosure beleid](https://en.wikipedia.org/wiki/Responsible_disclosure) waarin uitgelegd wordt hoe je je bevindingen aan ons kan melden
