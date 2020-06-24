@@ -14,7 +14,7 @@ Deze app kan helpen om mensen in Nederland weer gezonder, voorspoediger en vrije
 * [Eloy Durán](https://github.com/alloy/), voor zijn werk achter de schermen als moderator.
 * Eva van Sloten, voor haar werk als community manager.
 * Het hele team van [Privatetracer](https://www.privatetracer.org/), met name Neil en Salim, voor hun grote bijdrage aan de backend code. Hulde!
-* [Sebass van Boxtel](https://github.com/SvanBoxel) van GitHub en Rene Honig van Privatetracer voor hun ondersteuning bij het inrichten van het GitHub account van het Ministerie van VWS en het regelen van de updrade van dit account.
+* [Sebass van Boxtel](https://github.com/SvanBoxel) van GitHub en Rene Honig en Aleksander Okonski van Cybermundus voor hun ondersteuning bij het inrichten van het GitHub account van het Ministerie van VWS en het regelen van de upgrade van dit account.
 * (deze lijst is nog onder constructie)
 
 Missen er mensen in deze lijst? Voeg ze graag toe via een pull request, met eventueel nog een extra toelichting erbij.
