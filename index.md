@@ -4,11 +4,13 @@ lang: nl
 lang-ref: covid19-notification-app-community-index
 ---
 
+{% include events.html %}
+
 {% assign blocks = site.blocks | where: "lang", page.lang | sort: "index" %}
 {% assign rows = blocks.size | divided_by: 2.0 | ceil %}
 {% for block in blocks %}
-<div class="row">
-    <div class="col-md-offset-1 col-md-10">
+<div class="row row--no-gutter">
+    <div class="col-md-offset-1 col-md-5">
         <div class="content-background">
             <div class="content">
                 <header class="content__header">
@@ -31,6 +33,13 @@ lang-ref: covid19-notification-app-community-index
                     rel="external">{{ block.button.text }}{% if block.button.icon %}<span
                         class="icon icon-{{ block.button.icon }}"></span>{% endif %}</a>
                 {% endif %}
+            </div>
+        </div>
+    </div>
+    <div class="col-md-5">
+        <div class="content-background">
+            <div class="content">
+                Hello
             </div>
         </div>
     </div>
