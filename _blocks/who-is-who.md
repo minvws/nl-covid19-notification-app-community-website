@@ -4,7 +4,7 @@ index: 6
 title: Bedankt!
 subtitle: Deze mensen helpen ons vrijwillig om de app beter, veiliger en gebruiksvriendelijker te maken. Dank!
 button:
-  text: Voeg vrijwilligers toe aan dit document
+  text: Voeg vrijwilligers toe aan deze pagina 
   href: https://github.com/minvws/nl-covid19-notification-app-community-website/edit/master/_blocks/who-is-who.md
 ---
 Deze app kan helpen om mensen in Nederland weer gezonder, voorspoediger en vrijer te laten leven. Jullie bijdragen maken daarbij een groot verschil. We willen in het bijzonder deze mensen bedanken die belangeloos bijdragen (in alfebetische volgorde):
