@@ -59,7 +59,7 @@ Deze app kan helpen om mensen in Nederland weer gezonder, voorspoediger en vrije
 * Rob Voets
 * Sander van Hulst
 * Sebastian Wachholz
-* [Sebass van Boxtel](https://github.com/SvanBoxel) van GitHub en Rene Honig van Privatetracer voor hun ondersteuning bij het inrichten van het GitHub account van het Ministerie van VWS en het regelen van de updrade van dit account.
+* [Sebass van Boxtel](https://github.com/SvanBoxel)
 * Stefan van de Weijer
 * Thomas Visser
 * Tijl Houtbeckers
