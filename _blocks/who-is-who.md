@@ -10,7 +10,7 @@ button:
 Deze app kan helpen om mensen in Nederland weer gezonder, voorspoediger en vrijer te laten leven. Jullie bijdragen maken daarbij een groot verschil. We willen in het bijzonder deze mensen bedanken die belangeloos bijdragen (in alfebetische volgorde):
 
 * Aldert Greijdanus
-* Aleksander
+* Aleksander Okonski
 * Amin Kadhim
 * Anouschka Scholten
 * [Arian van Putten](https://github.com/arianvp), voor zijn werk als community moderator, het opzetten van deze site en al zijn bijdragen op GitHub.
