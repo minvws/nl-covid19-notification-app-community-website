@@ -1,4 +1,13 @@
 repo: minvws/nl-covid19-notification-app-community-website
-
 collections:
   - blocks
+exclude:
+  - nix
+  - gemset.nix
+  - default.nix
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSES.md
+  - LICENSE.txt
+  - LICENSE.pdf
