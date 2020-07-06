@@ -13,11 +13,12 @@ jobs:
     - uses: cachix/install-nix-action@v8
     - name: "Build"
       run: nix-build -A website
-    - name: "Upload artifact to github"
-      uses: actions/upload-artifact@v2
-      with:
-        name: website
-        path: result/**/*
+    # 
+    # - name: "Upload artifact to github"
+    #  uses: actions/upload-artifact@v2
+    #  with:
+    #    name: website
+    #    path: result/**/*
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
