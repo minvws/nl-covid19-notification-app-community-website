@@ -31,6 +31,9 @@ madeby:
 upcoming:
   nl: Aankomende activiteiten
   en: Upcoming events
+past:
+  nl: Eerdere activiteiten
+  en: Past events
 upcoming_where:
   nl: |
     Activiteiten vinden plaats op Google Meet. Op de dag zelf wordt een link
