@@ -13,10 +13,10 @@ jobs:
     - uses: cachix/install-nix-action@v8
     - name: "Build"
       run: nix-build -A website
-    # TODO: Workaround for artifacts and deploy not liking symlinks to
-    # read-only paths
+    # NOTE Workaround for artifacts and deploy not liking symlinks to
+    # read-only paths.
     - name: "Copy artifacts"
-      run: "mkdir build && cp -r result/*  build/"
+      run: "mkdir build && cp -r result/*  build/ && chmod +w -R build/"
     - name: "Upload artifact to github"
       uses: actions/upload-artifact@v2
       with:
