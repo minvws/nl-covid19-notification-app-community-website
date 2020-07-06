@@ -16,12 +16,12 @@ minvwslogo:
 community:
   nl: Community
   en: Community
-status:
-  nl: Status
-  en: Status
-statuslink:
-  nl: https://minvws.github.io/nl-covid19-notification-app-status/
-  en: https://minvws.github.io/nl-covid19-notification-app-status/en/
+homepage:
+  nl: Naar de app
+  en: To the app
+homepagelink:
+  nl: https://minvws.github.io/nl-covid19-notification-app-website
+  en: https://minvws.github.io/nl-covid19-notification-app-website/en
 tagline:
   nl: Alleen samen krijgen we Corona onder controle
   en: Alleen samen krijgen we Corona onder controle (TODO translate, what is the official English tagline?)
