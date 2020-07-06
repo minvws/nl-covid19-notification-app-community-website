@@ -9,6 +9,7 @@ button:
 ---
 Deze app kan helpen om mensen in Nederland weer gezonder, voorspoediger en vrijer te laten leven. Jullie bijdragen maken daarbij een groot verschil. We willen in het bijzonder deze mensen bedanken die belangeloos bijdragen (in alfebetische volgorde):
 
+{:.columns}
 * Aldert Greijdanus
 * Aleksander Okonski
 * Amin Kadhim
