@@ -1,0 +1,18 @@
+{% assign events = site.events | where: "lang", page.lang | sort: "date" %}
+{% for event in events %}
+<div class="row">
+  <div class="col-md-offset-1 col-md-10">
+    <div class="content-background">
+      <div class="content">
+        <header class="content__header">
+          <h2 id="{{ event.id }}" class="content__header-title">{{ event.title }}</h2>
+          <time class="content__header-paragraph" datetime="{{ event.date  | date_to_xmlschema }}">
+            {{ event.date | date: "%d/%m/%Y - %R"}}
+          </time>
+        </header>
+        {{ event.content }}
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}

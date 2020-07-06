@@ -1,13 +1,11 @@
-{% unless page.id %}
 {% capture nowtime %}{{'now' | date: '%s'}}{% endcapture %}
 {% assign events = site.events | where: "lang", page.lang | sort: "date" %}
-{% else %}
-{% assign nowtime = 0 %}
-{% endunless %}
 <div class="row">
   <div class="col-md-10 col-md-offset-1">
-    <div class="content-header">
-      <h2>{{ site.data.translations.upcoming[page.lang] }}</h2>
+    <div class="content">
+      <div class="content__header">
+        <h2>{{ site.data.translations.upcoming[page.lang] }}</h2>
+      </div>
     </div>
   </div>
 </div>
@@ -19,7 +17,7 @@
       {% if eventtime >= nowtime %}
       <li class="card event">
         <a href="events#{{ event.id }}" class="card__content">
-          <div class="card__thumb" style="background-image: url('/{{ event.image }}')"></div>
+          <div class="card__thumb" style="background-image: url('{{ event.image }}')"></div>
           <div class="card__body">
             <h3 class="card__title">{{ event.title }}</h3>
             <time datetime="{{ event.date  | date_to_xmlschema }}">

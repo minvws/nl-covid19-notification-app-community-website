@@ -14,14 +14,16 @@
       <div class="container">
         <header class="row">
           <div class="col-md-offset-1 col-md-5">
-            <section class="content-header">
-              <h1 class="content__header-title">
-                {% if page.title %}{{ page.title }}{% else %}{{ site.data.translations.title[page.lang] }}{% endif %}
-              </h1>
-              <p class="content__header-paragraph">
-                {% if page.subtitle %}{{ page.subtitle }}{% else %}{{ site.data.translations.description[page.lang] }}{% endif %}
-              </p>
-            </section>
+            <div class="content">
+              <section class="content__header">
+                <h1 class="content__header-title">
+                  {% if page.title %}{{ page.title }}{% else %}{{ site.data.translations.title[page.lang] }}{% endif %}
+                </h1>
+                <p class="content__header-paragraph">
+                  {% if page.subtitle %}{{ page.subtitle }}{% else %}{{ site.data.translations.description[page.lang] }}{% endif %}
+                </p>
+              </section>
+            </div>
           </div>
         </header>
       </div>

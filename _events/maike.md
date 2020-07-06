@@ -1,10 +1,11 @@
 ---
 title: Ask-me-anthing met Maike Klip
-date: 2020-07-11 13:00
+date: 2020-07-9 9:00
+image: ./img/plaatje2.svg
 lang: nl
 ---
-Kom even langs. Wat leuk!
-lipsum  iasdjasljdlsad
-asjdasjdlksajda
 
-alskjdlksa
+
+Maike Klip - user researcher en contextonderzoeker - staat klaar voor al je
+vragen over haar afstudeeronderzoek naar de begripvolle ambtenaar en over
+haar huidige rol als onderzoeker in het kernteam voor de notificatie-app
