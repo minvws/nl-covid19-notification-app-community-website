@@ -1,7 +1,10 @@
 ---
 title: Community inloopspreekuur
-date: 2020-07-10 13:00
+date: 2020-07-10T13:00+02:00
 lang: nl
-index: 0
+image: ./img/plaatje.svg
 ---
 Kom even langs
+mmer tests
+
+cool
