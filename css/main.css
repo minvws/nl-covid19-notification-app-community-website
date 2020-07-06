@@ -1,0 +1,49 @@
+.image-background {
+    /* We cannot use just 'background:' here because that would overwrite the background-color */
+    background-image: url("../img/header-background.svg");
+    background-repeat: no-repeat;
+    background-position: 105% 30%;
+    background-size: 55%;
+}
+@media (max-width: 768px) {
+    .image-background {
+        background-image: none;
+    }
+}
+.header-logo a::before {
+    background: url('../img/logo.svg') no-repeat bottom;
+}
+.header-logo a::after {
+    background: none;
+}
+.top-nav > .container > .content-background {
+    background: none;
+}
+.icon {
+    background-repeat: no-repeat;
+    background-size: 24px;
+    margin-left: 1rem;
+    width: 24px;
+    height: 24px;
+}
+.icon-slack {
+    background-image: url("../img/Slack_Mark_Monochrome_White.svg");
+}
+.icon-github {
+    background-image: url("../img/GitHub-Mark-Light-32px.png");
+}
+.icon-trello {
+    background-image: url("../img/trello-mark-white.svg");
+}
+
+.footer__content {
+  color: black;
+  background: #ffb612; /* Workaround bug in UNO */
+}
+
+.hero {
+    margin-top: -2rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    margin-bottom: 2rem;
+}
