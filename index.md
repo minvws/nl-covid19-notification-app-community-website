@@ -13,5 +13,5 @@ index: 0
 nav: true
 ---
 
-{% include events.html %}
+{% include upcoming-events.html %}
 {% include blocks.html %}
