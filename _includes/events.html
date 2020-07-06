@@ -1,3 +1,4 @@
+{% assign events = site.events | where: "lang", page.lang | sort: "index" %}
 <div class="row">
   <div class="col-md-10 col-md-offset-1">
     <div class="content-header">
@@ -8,32 +9,20 @@
 <div class="row">
   <div class="col-md-10 col-md-offset-1">
     <ul class="list--card">
-      <li class="card">
+      {% for event in events %}
+      <li class="card event">
         <a href="#" class="card__content">
           <div class="card__thumb" style="background-image: url('./img/plaatje.svg')"></div>
           <div class="card__body">
-            <h3 class="card__title">Community Inloopspreekuur</h3>
-            <p>Wekelijks op vrijdag van 13:00-13:55 uur</p>
-
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo fuga aperiam autem doloribus in, eos
-            labore perspiciatis cupiditate. Perspiciatis quia ad, expedita veritatis vel architecto nesciunt deserunt
-            distinctio consectetur sapiente.</p>
+            <h3 class="card__title">{{ event.title }}</h3>
+            <time datetime="{{ event.date }}">
+              {{ event.date }}
+            </time>
+            {{ event.content }}
           </div>
         </a>
       </li>
-      <li class="card">
-        <a href="#" class="card__content">
-          <div class="card__thumb" style="background-image: url('./img/plaatje2.svg')"></div>
-          <div class="card__body">
-            <h3 class="card__title">Ask my Anything met Maike Klip</h3>
-            <p>Op 9 juli van 9:00-10:00 uur</p>
-
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus tenetur ab minus labore odio quis
-              quaerat libero cupiditate earum voluptates accusantium sequi expedita quas laborum est illo, quos nobis
-              beatae?</p>
-          </div>
-        </a>
-      </li>
+      {% endfor %}
     </ul>
   </div>
 </div>

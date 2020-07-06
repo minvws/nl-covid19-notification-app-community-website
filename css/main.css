@@ -47,3 +47,8 @@
     padding-bottom: 6rem;
     margin-bottom: 2rem;
 }
+
+.event time {
+  font-style: italic;
+  line-height: 3rem;
+}
