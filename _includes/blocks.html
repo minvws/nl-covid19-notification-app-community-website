@@ -4,7 +4,8 @@
 <div class="row">
   <div class="col-md-offset-1 col-md-10">
     <div class="content-background">
-      <div class="content columns">
+      <img style="padding-right: 2rem; float: right;" src="/img/plaatje.svg" width="360px" alt="plaatje" />
+      <div class="content">
         <header class="content__header">
           <h2 class="content__header-title">{{ block.title }}</h2>
           <p class="content__header-paragraph">{{ block.subtitle }}</p>
@@ -25,7 +26,6 @@
           rel="external">{{ block.button.text }}{% if block.button.icon %}<span
             class="icon icon-{{ block.button.icon }}"></span>{% endif %}</a>
         {% endif %}
-        <img src="/img/plaatje.svg" width="425.5px" alt="plaatje" />
       </div>
     </div>
   </div>
