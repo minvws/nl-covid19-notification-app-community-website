@@ -6,7 +6,7 @@ on:
     # weekly meeting then anymore because COVID-19 is over
     - cron: "01 12 * * 5"
 jobs:
-  update-nixpkgs:
+  update-weekly-meeting:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -14,3 +14,9 @@ jobs:
       run: |
         next_friday=$(date --date "13:00 next friday" --iso-8601=minutes)
         sed -i "s/^date: .*$/date: $next_friday/" ./_events/inloopuur.md
+    - name: "Commit changes"
+      run: |
+        git add ./_events/inloopuur.md
+        git commit -m "Update weekly meeting to next week. See you next time"
+        git push
+
