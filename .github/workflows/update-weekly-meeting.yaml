@@ -16,6 +16,8 @@ jobs:
         sed -i "s/^date: .*$/date: $next_friday/" ./_events/inloopuur.md
     - name: "Commit changes"
       run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git add ./_events/inloopuur.md
         git commit -m "Update weekly meeting to next week. See you next time"
         git push
