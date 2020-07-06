@@ -4,7 +4,7 @@ on:
     # NOTE: This assumes NL is in UTC+2 which will break once winter time comes
     # in, but I'm going to be an optimist and hope we do not have a need for a
     # weekly meeting then anymore because COVID-19 is over
-    - cron: "01 11 * * 5"
+    - cron: "01 12 * * 5"
 jobs:
   update-nixpkgs:
     runs-on: ubuntu-latest
