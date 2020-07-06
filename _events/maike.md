@@ -1,6 +1,6 @@
 ---
-title: Ask-me-anthing met Maike Klip
-date: 2020-07-9 9:00
+title: Ask-me-anything met Maike Klip
+date: 2020-07-09 9:00
 image: ./img/plaatje2.svg
 lang: nl
 ---
