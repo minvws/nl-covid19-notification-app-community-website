@@ -16,12 +16,12 @@ jobs:
     - name: "Upload artifact to github"
       uses: actions/upload-artifact@v2
       with:
-        name: my-artifact
+        name: website
         path: result
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: gh-pages 
+        BRANCH: gh-pages
         FOLDER: result
 
