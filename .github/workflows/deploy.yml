@@ -13,16 +13,20 @@ jobs:
     - uses: cachix/install-nix-action@v8
     - name: "Build"
       run: nix-build -A website
-    # 
-    # - name: "Upload artifact to github"
-    #  uses: actions/upload-artifact@v2
-    #  with:
-    #    name: website
-    #    path: result/**/*
+    # TODO: Workaround for artifacts and deploy not liking symlinks to
+    # read-only paths
+    - name: "Copy artifacts"
+      run: "mkdir build && cp -r result/*  build/"
+
+    - name: "Upload artifact to github"
+     uses: actions/upload-artifact@v2
+     with:
+       name: website
+       path: build
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
-        FOLDER: result
+        FOLDER: build
 
