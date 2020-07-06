@@ -31,3 +31,11 @@ madeby:
 upcoming:
   nl: Aankomende activiteiten
   en: Upcoming events
+upcoming_where:
+  nl: |
+    Activiteiten vinden plaats op Google Meet. Op de dag zelf wordt een link
+    naar de meeting gedeeld in het #notificatie-app kanaal in de Slack
+  en: |
+    Events will place on Google Meet. On the day of the event a link will
+    be shared in the #notificatie-app Slack channel that allows you to join
+    the meeting.
