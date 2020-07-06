@@ -1,0 +1,21 @@
+name: "Update dependencies"
+on:
+  schedule:
+    cron: "0 8 * * *"
+jobs:
+  update-nixpkgs:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: cachix/install-nix-action@v8
+    - name: "Update dependnecies"
+      run: "$(nix-build -A update-dependencies)/update-dependencies"
+    - name: "Only open the pull request if it builds"
+      run: "nix-build -A website"
+    - name: "Create pull request"
+      uses: peter-evans/create-pull-request@v2.8.0
+      with:
+        commit-message: "chore: update dependencies"
+        title: "chore: update-dependencies"
+        reviewers: "arianvp"
+        branch: "chore/update-dependencies"

@@ -1,0 +1,27 @@
+name: "Deploy"
+on:
+  push:
+    branches:
+    - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        persist-credentials: false
+    - uses: cachix/install-nix-action@v8
+    - name: "Build"
+      run: nix-build -A website
+    - name: "Upload artifact to github"
+      uses: actions/upload-artifact@v2
+      with:
+        name: my-artifact
+        path: result
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: gh-pages 
+        FOLDER: result
+
