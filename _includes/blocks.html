@@ -5,7 +5,7 @@
   <div class="col-md-offset-1 col-md-10">
     <div class="content-background">
       {% if block.image %}
-      <img class="side-image"  src="{{ block.image.src }}" alt="{{ block.image.alt }}" />
+      <img class="side-image"  src="{{ relroot }}{{ block.image.src }}" alt="{{ block.image.alt }}" />
       {% endif %}
       <div class="content">
         <header class="content__header">
