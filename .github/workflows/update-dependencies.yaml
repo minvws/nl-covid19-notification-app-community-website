@@ -9,7 +9,7 @@ jobs:
     - uses: actions/checkout@v2
     - uses: cachix/install-nix-action@v8
     - name: "Update dependnecies"
-      run: "$(nix-build -A update-dependencies)/update-dependencies"
+      run: "$(nix-build -A update-dependencies)"
     - name: "Only open the pull request if it builds"
       run: "nix-build -A website"
     - name: "Create pull request"
