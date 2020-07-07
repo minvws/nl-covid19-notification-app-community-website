@@ -12,3 +12,4 @@ exclude:
   - LICENSES.md
   - LICENSE.txt
   - LICENSE.pdf
+baseurl: /nl-covid19-notification-app-community-website
