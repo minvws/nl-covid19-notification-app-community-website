@@ -4,7 +4,7 @@ index: 6
 title: Bedankt!
 subtitle: Deze mensen helpen ons vrijwillig om de app beter, veiliger en gebruiksvriendelijker te maken. Dank!
 button:
-  text: Voeg vrijwilligers toe aan deze pagina 
+  text: Voeg vrijwilligers toe aan deze pagina
   href: https://github.com/minvws/nl-covid19-notification-app-community-website/edit/master/_blocks/who-is-who.md
 ---
 Deze app kan helpen om mensen in Nederland weer gezonder, voorspoediger en vrijer te laten leven. Jullie bijdragen maken daarbij een groot verschil. We willen in het bijzonder deze mensen bedanken die belangeloos bijdragen (in alfebetische volgorde):
@@ -14,20 +14,20 @@ Deze app kan helpen om mensen in Nederland weer gezonder, voorspoediger en vrije
 * Aleksander Okonski
 * Amin Kadhim
 * Anouschka Scholten
-* [Arian van Putten](https://github.com/arianvp), voor zijn werk als community moderator, het opzetten van deze site en al zijn bijdragen op GitHub.
+* [Arian van Putten](https://github.com/arianvp)
 * Bart Nieuwenhuis
 * Bart van de Biezen
 * Bart van Riessen
-* [Benjamin W. Broersma](https://github.com/bwbroersma), voor zijn werk aan deze site, het opzetten van een interne Airtable database en vele andere activiteiten.
+* [Benjamin W. Broersma](https://github.com/bwbroersma)
 * Bert Hubert
 * Christine Karman
 * Damiët Groen
 * David Stotijn
 * Dirk Groten
 * Edwin van de Bospoort
-* [Eloy Durán](https://github.com/alloy/), voor zijn werk achter de schermen als moderator.
+* [Eloy Durán](https://github.com/alloy/)
 * Elsje van de Kraats
-* Eva van Sloten, voor haar werk als community manager
+* Eva van Sloten
 * Fouad Astitou
 * Franklin van Velthuizen
 * Harrie Kuipers
@@ -69,8 +69,8 @@ Deze app kan helpen om mensen in Nederland weer gezonder, voorspoediger en vrije
 * Yvo Hunink
 * Zino Hofmann
 
-Onze dank gaat ook uit naar alle mensen die geholpen hebben, maar hier liever niet genoemd wilden worden. 
+Onze dank gaat ook uit naar alle mensen die geholpen hebben, maar hier liever niet genoemd wilden worden.
 
-Tot slot een bijzondere dank aan het hele team van [PrivateTracer](https://www.privatetracer.org/). Grote delen van de code van dit vrijwillige initiatief zijn gebruikt voor de notificatie-app en verschillende mensen in het team van het Ministerie van VWS komen uit dit initiatief. Op verzoek van PrivateTracer staan te teamleden hier niet individueel genoemd, maar you know who you are. Dank! 
+Tot slot een bijzondere dank aan het hele team van [PrivateTracer](https://www.privatetracer.org/). Grote delen van de code van dit vrijwillige initiatief zijn gebruikt voor de notificatie-app en verschillende mensen in het team van het Ministerie van VWS komen uit dit initiatief. Op verzoek van PrivateTracer staan te teamleden hier niet individueel genoemd, maar you know who you are. Dank!
 
-Verzoek: missen er mensen in deze lijst? Voeg ze graag toe via een pull request of contacteer Edo Plantinga via Slack. We laten graag zien wie waaraan heeft bijgedragen, dus als je wilt aanvullen wat je bijdrage was, dan heel graag. 
+Mmissen er mensen in deze lijst? Voeg ze graag toe via een pull request of contacteer Edo Plantinga via Slack. We laten graag zien wie waaraan heeft bijgedragen, dus als je wilt aanvullen wat je bijdrage was, dan heel graag.
