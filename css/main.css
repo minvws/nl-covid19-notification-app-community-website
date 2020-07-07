@@ -47,3 +47,14 @@
     padding-bottom: 6rem;
     margin-bottom: 2rem;
 }
+
+.event time {
+  font-style: italic;
+  line-height: 3rem;
+}
+
+.side-image {
+  padding-right: 2rem; 
+  float: right;
+  width: 360px;
+}

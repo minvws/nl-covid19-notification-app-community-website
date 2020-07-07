@@ -1,6 +1,7 @@
 repo: minvws/nl-covid19-notification-app-community-website
 collections:
   - blocks
+  - events
 exclude:
   - nix
   - gemset.nix

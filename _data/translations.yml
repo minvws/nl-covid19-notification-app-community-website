@@ -1,8 +1,8 @@
 title:
-  nl: Community Covid-19
+  nl: 
   en: Covid-19 Community
 description:
-  nl: Overzicht voor iedereen die betrokken is of dat wil zijn.
+  nl: Het team van het Ministerie van Volksgezondheid, Welzijn en Sport dat de Nederlandse Covid-19 app ontwikkelt, wordt ondersteund door een groot aantal vrijwilligers en externen. Iedereen kan meedoen; jouw mening en expertise wordt op prijs gesteld en kan het verschil maken! 
   en: Overview for everyone who is involed or wants to be involved.
 differentlanguage:
   nl: Lees in andere taal
@@ -16,15 +16,29 @@ minvwslogo:
 community:
   nl: Community
   en: Community
-status:
-  nl: Status
-  en: Status
-statuslink:
-  nl: https://minvws.github.io/nl-covid19-notification-app-status/
-  en: https://minvws.github.io/nl-covid19-notification-app-status/en/
+homepage:
+  nl: Naar de app
+  en: To the app
+homepagelink:
+  nl: https://minvws.github.io/nl-covid19-notification-app-website
+  en: https://minvws.github.io/nl-covid19-notification-app-website/en
 tagline:
   nl: Alleen samen krijgen we Corona onder controle
   en: Alleen samen krijgen we Corona onder controle (TODO translate, what is the official English tagline?)
 madeby:
   nl: Gemaakt met liefde door
   en: Made with love by
+upcoming:
+  nl: Aankomende activiteiten
+  en: Upcoming events
+past:
+  nl: Eerdere activiteiten
+  en: Past events
+upcoming_where:
+  nl: |
+    Activiteiten vinden plaats op Google Meet. Op de dag zelf wordt een link
+    naar de meeting gedeeld in het #notificatie-app kanaal in de Slack
+  en: |
+    Events will place on Google Meet. On the day of the event a link will
+    be shared in the #notificatie-app Slack channel that allows you to join
+    the meeting.

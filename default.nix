@@ -14,7 +14,7 @@ in
   website = pkgs.stdenv.mkDerivation {
     name = "jekyll";
     src = pkgs.nix-gitignore.gitignoreSource [] ./.;
-    nativeBuildInputs = [ env pkgs.bundler pkgs.ruby ];
+    nativeBuildInputs = [ pkgs.yq-go env pkgs.bundler pkgs.ruby ];
     LC_ALL = "C.UTF-8";
     buildPhase = ''
       jekyll build --trace

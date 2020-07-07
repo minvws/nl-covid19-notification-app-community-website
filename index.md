@@ -1,38 +1,25 @@
 ---
-layout: default
+layout: hero
+title: Samen kom je verder
+navtitle: Home
+subtitle: | 
+  Het team van het Ministerie van Volksgezondheid, Welzijn en Sport dat de
+  Nederlandse Covid-19 app ontwikkelt, wordt ondersteund door een groot
+  aantal vrijwilligers en externen. Iedereen kan meedoen; jouw mening en
+  expertise wordt op prijs gesteld en kan het verschil maken!
 lang: nl
 lang-ref: covid19-notification-app-community-index
+index: 0
+nav: true
 ---
 
-{% assign blocks = site.blocks | where: "lang", page.lang | sort: "index" %}
-{% assign rows = blocks.size | divided_by: 2.0 | ceil %}
-{% for block in blocks %}
-<div class="row">
-    <div class="col-md-offset-1 col-md-10">
-        <div class="content-background">
-            <div class="content">
-                <header class="content__header">
-                    <h2 class="content__header-title">{{ block.title }}</h2>
-                    <p class="content__header-paragraph">{{ block.subtitle }}</p>
-                </header>
-                {{ block.content }}
-                {% if block.list %}
-                <ul class="list list--subjects columns">
-                    {% for item in block.list %}
-                    <li class="list__item">
-                        <a href="{{ item.href }}" class="list__link">{{ item.title }}</a><br>
-                        <p>{{ item.text }}</p>
-                    </li>
-                    {% endfor %}
-                </ul>
-                {% endif %}
-                {% if block.button %}
-                <a class="btn" href="{{ block.button.href }}"
-                    rel="external">{{ block.button.text }}{% if block.button.icon %}<span
-                        class="icon icon-{{ block.button.icon }}"></span>{% endif %}</a>
-                {% endif %}
-            </div>
-        </div>
+<div class="notification notification--info">
+    <div class="notification__content">
+      <div class="notification__type">TER INFORMATIE</div>
+      <h2 class="notification__title">In aanbouw</h2>
+      <span>Deze website is nog in aanbouw. Veranderingen vinden actief plaats.
+      Volg de ontwikkeling of draag bij op <a href="https://github.com/minvws/nl-covid19-notification-app-community-website">Github</a></span>
     </div>
-</div>
-{% endfor %}
+  </div>
+{% include upcoming-events.html %}
+{% include blocks.html %}

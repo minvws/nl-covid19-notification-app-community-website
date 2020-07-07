@@ -1,19 +1,32 @@
 <header class="header" role="banner">
-    <div class="header-logo">
-        <a href="." title="{{ site.data.translations.minvwslogo[page.lang] }}">
-            <span role="img" class="screenreader-only">{{ site.data.translations.minvws[page.lang] }}</span>
-        </a>
-    </div>
+  <div class="header-logo">
+    <a href="." title="{{ site.data.translations.minvwslogo[page.lang] }}">
+      <span role="img" class="screenreader-only">{{ site.data.translations.minvws[page.lang] }}</span>
+    </a>
+  </div>
 </header>
+{% assign pages = site.pages | where: "lang", page.lang | where: "nav", true  | sort: "index" %}
 <nav class="top-nav top-nav--geel">
-    <div class="container">
-        <ul class="nav">
-            <li class="nav__item">
-                <a class="nav__link nav__link--active" href="." aria-current="page">{{ site.data.translations.community[page.lang] }}</a>
-            </li>
-            <li class="nav__item">
-                <a class="nav__link" href="{{ site.data.translations.statuslink[page.lang] }}"
-                    rel="external">{{ site.data.translations.status[page.lang] }}</a></li>
-        </ul>
-    </div>
+  <div class="container">
+    <ul class="nav">
+      {% for page_ in pages %}
+      {% if page_.url == page.url %}
+      <li class="nav__item">
+        <a href="{{ page_.url }}" class="nav__link nav__link--active" aria-current="page">{{ page_.navtitle }}</a>
+      </li>
+      {% else %}
+      <li class="nav__item">
+        <a href="{{ page_.url }}" class="nav__link">{{ page_.navtitle }}</a>
+      </li>
+      {% endif %}
+      {% endfor %}
+      <!--<li class="nav__item">
+        <a class="nav__link nav__link--active" href="."
+          aria-current="page"></a>
+      </li>-->
+      <li class="nav__item">
+        <a class="nav__link" href="{{ site.data.translations.homepagelink[page.lang] }}"
+          rel="external">{{ site.data.translations.homepage[page.lang] }}</a></li>
+    </ul>
+  </div>
 </nav>
