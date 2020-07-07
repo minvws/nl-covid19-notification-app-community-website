@@ -5,8 +5,8 @@ title: Ontwikkel mee
 subtitle: De app is open-source software en je kunt de ontwikkeling volgen op GitHub.
 
 image:
-  src: /img/plaatje.svg
-  alt: Drie personen i nde buitenlucht. Een fietst, een zit, en een loopt.
+  src: img/plaatje.svg
+  alt: Drie personen in de buitenlucht. Een fietst, een zit, en een loopt.
 
 button:
   text: Naar het GitHub account van VWS
