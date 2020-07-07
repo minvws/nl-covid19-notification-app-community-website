@@ -52,3 +52,9 @@
   font-style: italic;
   line-height: 3rem;
 }
+
+.side-image {
+  padding-right: 2rem; 
+  float: right;
+  width: 360px;
+}

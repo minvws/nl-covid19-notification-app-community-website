@@ -4,7 +4,9 @@
 <div class="row">
   <div class="col-md-offset-1 col-md-10">
     <div class="content-background">
-      <img style="padding-right: 2rem; float: right;" src="/img/plaatje.svg" width="360px" alt="plaatje" />
+      {% if block.image %}
+      <img class="side-image"  src="{{ block.image.src }}" alt="{{ block.image.alt }}" />
+      {% endif %}
       <div class="content">
         <header class="content__header">
           <h2 class="content__header-title">{{ block.title }}</h2>
