@@ -12,11 +12,11 @@
       {% for page_ in pages %}
       {% if page_.url == page.url %}
       <li class="nav__item">
-        <a href="{{ page_.url }}" class="nav__link nav__link--active" aria-current="page">{{ page_.navtitle }}</a>
+        <a href="{{ page_.url | relative_url }}" class="nav__link nav__link--active" aria-current="page">{{ page_.navtitle }}</a>
       </li>
       {% else %}
       <li class="nav__item">
-        <a href="{{ page_.url }}" class="nav__link">{{ page_.navtitle }}</a>
+        <a href="{{ page_.url | relative_url }}" class="nav__link">{{ page_.navtitle }}</a>
       </li>
       {% endif %}
       {% endfor %}
