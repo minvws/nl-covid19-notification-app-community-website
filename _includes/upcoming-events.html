@@ -17,16 +17,17 @@
       {% capture eventtime %}{{event.date | date: '%s'}}{% endcapture %}
       {% if eventtime >= nowtime %}
       <li class="card event">
-        <a href="events#{{ event.id }}" class="card__content">
+        <div  class="card__content">
           <div class="card__thumb" style="background-image: url('{{ event.image }}')"></div>
           <div class="card__body">
-            <h3 class="card__title">{{ event.title }}</h3>
+            <a href="events#{{ event.id }}"><h3 class="card__title">{{ event.title }}</h3></a>
             <time datetime="{{ event.date  | date_to_xmlschema }}">
               {{ event.date | date: "%d/%m/%Y - %R"}}
             </time>
             {{ event.excerpt }}
+            <a href="events#{{ event.id }}">Klik hier voor meer informatie</a>
           </div>
-        </a>
+        </div>
       </li>
       {% endif %}
       {% endfor %}
