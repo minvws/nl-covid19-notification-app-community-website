@@ -1,11 +1,11 @@
 ---
 title: Ask-me-anything met Maike Klip
-date: 2020-07-09 9:00
+date: 2020-07-13 9:30 uur - 10:30 uur
 image: ./img/plaatje2.svg
 lang: nl
 ---
 
 
-Maike Klip - user researcher en contextonderzoeker - staat klaar voor al je
-vragen over haar afstudeeronderzoek naar de begripvolle ambtenaar en over
-haar huidige rol als onderzoeker in het kernteam voor de notificatie-app
+[Maike Klip](https://www.linkedin.com/in/maikeveltman/) - user researcher en contextonderzoeker - staat klaar voor al je
+vragen over haar [afstudeeronderzoek naar de begripvolle ambtenaar](https://www.debegripvolleambtenaar.nl/) en over
+haar huidige rol als onderzoeker in het kernteam voor de notificatie-app.
