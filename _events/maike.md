@@ -1,6 +1,6 @@
 ---
 title: Ask-me-anything met Maike Klip
-date: 2020-07-13 9:30 uur - 10:30 uur
+date: 2020-07-13 10:30 uur - 11:30 uur
 image: ./img/plaatje2.svg
 lang: nl
 ---
