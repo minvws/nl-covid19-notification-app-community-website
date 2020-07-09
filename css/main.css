@@ -1,8 +1,8 @@
 .image-background {
     /* We cannot use just 'background:' here because that would overwrite the background-color */
-    background-image: url("../img/header-background.svg");
+    background-image: url("../img/plaatje.svg");
     background-repeat: no-repeat;
-    background-position: 105% 30%;
+    background-position: 105% 60%;
     background-size: 55%;
 }
 @media (max-width: 768px) {
@@ -19,20 +19,31 @@
 .top-nav > .container > .content-background {
     background: none;
 }
-.icon {
+.icon-slack {
     background-repeat: no-repeat;
     background-size: 24px;
-    margin-left: 1rem;
+    margin-left: .6rem;
+    margin-right: .6rem;
     width: 24px;
     height: 24px;
-}
-.icon-slack {
     background-image: url("../img/Slack_Mark_Monochrome_White.svg");
 }
 .icon-github {
+    background-repeat: no-repeat;
+    background-size: 24px;
+    margin-left: .6rem;
+    margin-right: .6rem;
+    width: 24px;
+    height: 24px;
     background-image: url("../img/GitHub-Mark-Light-32px.png");
 }
-.icon-trello {
+.icon-trello{
+    background-repeat: no-repeat;
+    background-size: 24px;
+    margin-left: .6rem;
+    margin-right: .6rem;
+    width: 24px;
+    height: 24px;
     background-image: url("../img/trello-mark-white.svg");
 }
 
@@ -57,4 +68,9 @@
   padding-right: 2rem; 
   float: right;
   width: 360px;
+}
+
+ul.sharing li {
+  display: inline-block;
+  margin-right: 2rem;
 }
