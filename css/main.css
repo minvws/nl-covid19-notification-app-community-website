@@ -69,3 +69,8 @@
   float: right;
   width: 360px;
 }
+
+ul.sharing li {
+  display: inline-block;
+  margin-right: 2rem;
+}
