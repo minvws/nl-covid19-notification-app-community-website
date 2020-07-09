@@ -1,15 +1,16 @@
 ---
 lang: nl
-title: Onderzoek & geef jouw mening
-index: -1
+title: Gebruikersonderzoek
+index: -20
 button:
-  text: Bekijk de 'Usability & Experience' testen
+  text: Bekijk de gebruikersonderzoeken
+  href: https://github.com/minvws/nl-covid19-notification-app-design#overzicht
   icon: link-external
 ---
 
 De App moet eenvoudig zijn in gebruik, logisch en begrijpelijkvoor iedereen.
 Daarom worden er zoveel mogelijk mensen betrokken; via vragenlijsten,
-interviews en gebruikersonderzoeken -jouw mening telt. 
+interviews en gebruikersonderzoeken - iedereens mening telt. 
 
 Er wordt uitgebreid onderzoek gedaan bij verschillende doelgroepen van de
 app. Bijvoorbeeld hoe contactonderzoek bij de GGD werkt; gebruikersonderzoek,
