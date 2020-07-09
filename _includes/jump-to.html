@@ -1,0 +1,15 @@
+{% assign blocks = site.blocks | where: "lang", page.lang | sort: "index" %}
+<div class="row">
+  <div class="col-md-offset-1 col-md-10">
+    <div class="content">
+      <h2>Snel naar...</h2>
+      <ul class="list list--links list--chevrons columns">
+        <li><a href="#">Aankomende activiteiten</a></li>
+        {% for block in blocks %}
+        <li><a href="#">{{ block.title }}</a></li>
+        {% endfor %}
+        <li><a href="#">Deel deze pagina</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
