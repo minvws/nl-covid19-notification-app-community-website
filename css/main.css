@@ -19,20 +19,31 @@
 .top-nav > .container > .content-background {
     background: none;
 }
-.icon {
+.icon-slack {
     background-repeat: no-repeat;
     background-size: 24px;
-    margin-left: 1rem;
+    margin-left: .6rem;
+    margin-right: .6rem;
     width: 24px;
     height: 24px;
-}
-.icon-slack {
     background-image: url("../img/Slack_Mark_Monochrome_White.svg");
 }
 .icon-github {
+    background-repeat: no-repeat;
+    background-size: 24px;
+    margin-left: .6rem;
+    margin-right: .6rem;
+    width: 24px;
+    height: 24px;
     background-image: url("../img/GitHub-Mark-Light-32px.png");
 }
-.icon-trello {
+.icon-trello{
+    background-repeat: no-repeat;
+    background-size: 24px;
+    margin-left: .6rem;
+    margin-right: .6rem;
+    width: 24px;
+    height: 24px;
     background-image: url("../img/trello-mark-white.svg");
 }
 
