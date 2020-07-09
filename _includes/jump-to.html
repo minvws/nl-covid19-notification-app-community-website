@@ -4,11 +4,11 @@
     <div class="content">
       <h2>Snel naar...</h2>
       <ul class="list list--links list--chevrons columns">
-        <li><a href="#">Aankomende activiteiten</a></li>
+        <li><a href="#upcoming">Aankomende activiteiten</a></li>
         {% for block in blocks %}
-        <li><a href="#">{{ block.title }}</a></li>
+        <li><a href="#{{ block.id }}">{{ block.title }}</a></li>
         {% endfor %}
-        <li><a href="#">Deel deze pagina</a></li>
+        <li><a href="#social">Deel deze pagina</a></li>
       </ul>
     </div>
   </div>

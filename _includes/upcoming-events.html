@@ -1,36 +1,40 @@
 {% capture nowtime %}{{'now' | date: '%s'}}{% endcapture %}
 {% assign events = site.events | where: "lang", page.lang | sort: "date" %}
-<div class="row">
-  <div class="col-md-10 col-md-offset-1">
-    <div class="content">
-      <div class="content__header">
-        <h2>{{ site.data.translations.upcoming[page.lang] }}</h2>
-      </div>
+<div id="upcoming">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="content">
+        <div class="content__header">
+          <h2>{{ site.data.translations.upcoming[page.lang] }}</h2>
+        </div>
         <p>{{ site.data.translations.upcoming_where[page.lang] }}</p>
+      </div>
     </div>
   </div>
-</div>
-<div class="row">
-  <div class="col-md-10 col-md-offset-1">
-    <ul class="list--card">
-      {% for event in events %}
-      {% capture eventtime %}{{event.date | date: '%s'}}{% endcapture %}
-      {% if eventtime >= nowtime %}
-      <li class="card event">
-        <div  class="card__content">
-          <div class="card__thumb" style="background-image: url('{{ event.image }}')"></div>
-          <div class="card__body">
-            <a href="events#{{ event.id }}"><h3 class="card__title">{{ event.title }}</h3></a>
-            <time datetime="{{ event.date  | date_to_xmlschema }}">
-              {{ event.date | date: "%d/%m/%Y - %R"}}
-            </time>
-            {{ event.excerpt }}
-            <a href="events#{{ event.id }}">Klik hier voor meer informatie</a>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <ul class="list--card">
+        {% for event in events %}
+        {% capture eventtime %}{{event.date | date: '%s'}}{% endcapture %}
+        {% if eventtime >= nowtime %}
+        <li class="card event">
+          <div class="card__content">
+            <div class="card__thumb" style="background-image: url('{{ event.image }}')"></div>
+            <div class="card__body">
+              <a href="events#{{ event.id }}">
+                <h3 class="card__title">{{ event.title }}</h3>
+              </a>
+              <time datetime="{{ event.date  | date_to_xmlschema }}">
+                {{ event.date | date: "%d/%m/%Y - %R"}}
+              </time>
+              {{ event.excerpt }}
+              <a href="events#{{ event.id }}">Klik hier voor meer informatie</a>
+            </div>
           </div>
-        </div>
-      </li>
-      {% endif %}
-      {% endfor %}
-    </ul>
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 </div>
