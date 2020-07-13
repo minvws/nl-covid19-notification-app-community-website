@@ -65,7 +65,7 @@ Content can be edited via pull requests via the [blocks folder](https://github.c
 To add a block, create a Markdown file in `_blocks` with the following template:
 ```md
 ---
-lang: en
+lang: nl
 index: 7
 title: The title
 subtitle: Subtitle
@@ -76,6 +76,9 @@ list:
   - title: Another example
     href: https://www.example.com
     text: Another example
+image:
+  href: <link to image>
+  alt: <description of the image>
 button:
   text: Goto GitHub
   icon: github
