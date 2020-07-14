@@ -66,8 +66,6 @@
 
 .side-image {
   padding-right: 2rem;
-  float: right;
-  width: 50%;
 }
 
 .side-image img {
@@ -88,6 +86,6 @@ ul.sharing li {
 @media(max-width: 768px) {
   .side-image {
     float: none;
-    width: 360px;
+    width: 36%;
   }
 }

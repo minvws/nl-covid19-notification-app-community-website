@@ -4,41 +4,45 @@
 <div id="{{ block.id }}" class="row">
   <div class="col-md-offset-1 col-md-10">
     <div class="content-background">
-      {% if block.image %}
-      <figure class="side-image">
-        <img src="{{ relroot }}{{ block.image.src }}" alt="{{ block.image.alt }}" />
-        {% if block.image.description %}
-        <figcaption>{{ block.image.description }}</figcaption>
-        {% endif %}
-      </figure>
-      {% endif %}
-      <div class="content">
-        <header class="content__header">
-          <h2 class="content__header-title">{{ block.title }}</h2>
-          <p class="content__header-paragraph">{{ block.subtitle }}</p>
-        </header>
-        {{ block.content }}
-        {% if block.list %}
-        <ul class="list list--subjects columns">
-          {% for item in block.list %}
-          <li class="list__item">
-            <a href="{{ item.href }}" class="list__link">{{ item.title }}</a><br>
-            <p>{{ item.text }}</p>
-          </li>
-          {% endfor %}
-        </ul>
-        {% endif %}
-        {% if block.button %}
-        <a class="btn" href="{{ block.button.href }}" rel="external">
-          {% if block.button.icon %}
-          <span class="btn__content">
-            {{ block.button.text }}
-            <span class="btn__icon icon icon-{{ block.button.icon }}"></span>
-          </span>
-          {% else %}
-          {{ block.button.text }}
+      <div class="{% if block.image %} row {% endif %}">
+        <div class="{% if block.image %} col-md-6 {% endif %} ">
+          <div class="content">
+            <header class="content__header">
+              <h2 class="content__header-title">{{ block.title }}</h2>
+              <p class="content__header-paragraph">{{ block.subtitle }}</p>
+            </header>
+            {{ block.content }}
+            {% if block.list %}
+            <ul class="list list--subjects columns">
+              {% for item in block.list %}
+              <li class="list__item">
+                <a href="{{ item.href }}" class="list__link">{{ item.title }}</a><br>
+                <p>{{ item.text }}</p>
+              </li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+            {% if block.button %}
+            <a class="btn" href="{{ block.button.href }}" rel="external">
+              {% if block.button.icon %}
+              <span class="btn__content">
+                {{ block.button.text }}
+                <span class="btn__icon icon icon-{{ block.button.icon }}"></span>
+              </span>
+              {% else %}
+              {{ block.button.text }}
+              {% endif %}
+            </a>
+            {% endif %}
+          </div>
+        </div>
+        {% if block.image %}
+        <figure class="side-image col-md-6">
+          <img src="{{ relroot }}{{ block.image.src }}" alt="{{ block.image.alt }}" />
+          {% if block.image.description %}
+          <figcaption>{{ block.image.description }}</figcaption>
           {% endif %}
-        </a>
+        </figure>
         {% endif %}
       </div>
     </div>
