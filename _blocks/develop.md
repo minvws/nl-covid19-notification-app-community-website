@@ -5,8 +5,9 @@ title: Ontwikkel mee
 subtitle: De app is open-source software en je kunt de ontwikkeling volgen op GitHub.
 
 image:
-  src: img/plaatje.svg
-  alt: Drie personen in de buitenlucht. Een fietst, een zit, en een loopt.
+  src: "img/GitHub_Logo.png"
+  alt: Github Logo
+  description: Via GitHub en Figma kunnen ontwerpers en ontwikkelaars hun feedback geven. Zo maken we de app nog robuuster
 
 button:
   text: Naar het GitHub account van VWS

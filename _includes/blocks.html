@@ -7,7 +7,9 @@
       {% if block.image %}
       <figure class="side-image">
         <img src="{{ relroot }}{{ block.image.src }}" alt="{{ block.image.alt }}" />
-        <figcaption>{{ block.image.alt }}</figcaption>
+        {% if block.image.description %}
+        <figcaption>{{ block.image.description }}</figcaption>
+        {% endif %}
       </figure>
       {% endif %}
       <div class="content">

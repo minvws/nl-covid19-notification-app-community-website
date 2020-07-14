@@ -67,8 +67,13 @@
 .side-image {
   padding-right: 2rem;
   float: right;
-  width: 360px;
+  width: 50%;
 }
+
+.side-image img {
+  width: 100%;
+}
+
 .side-image figcaption {
   font-size: 2.3rem;
   line-height: 3rem;
@@ -78,4 +83,11 @@
 ul.sharing li {
   display: inline-block;
   margin-right: 2rem;
+}
+
+@media(max-width: 768px) {
+  .side-image {
+    float: none;
+    width: 360px;
+  }
 }
