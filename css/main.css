@@ -64,28 +64,19 @@
   line-height: 3rem;
 }
 
-.side-image {
-  padding-right: 2rem;
-}
-
-.side-image img {
-  width: 100%;
-}
-
-.side-image figcaption {
+figcaption {
   font-size: 2.3rem;
   line-height: 3rem;
   font-style: italic;
+  margin-top: 3rem;
+  margin-left: 0;
+}
+
+figure img {
+  margin: 0 auto;
 }
 
 ul.sharing li {
   display: inline-block;
   margin-right: 2rem;
-}
-
-@media(max-width: 768px) {
-  .side-image {
-    float: none;
-    width: 36%;
-  }
 }

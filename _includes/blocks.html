@@ -4,8 +4,8 @@
 <div id="{{ block.id }}" class="row">
   <div class="col-md-offset-1 col-md-10">
     <div class="content-background">
-      <div class="{% if block.image %} row {% endif %}">
-        <div class="{% if block.image %} col-md-6 {% endif %} ">
+      <div class="{% if block.figure %} row {% endif %}">
+        <div class="{% if block.figure %} col-md-6 {% endif %} ">
           <div class="content">
             <header class="content__header">
               <h2 class="content__header-title">{{ block.title }}</h2>
@@ -13,11 +13,10 @@
             </header>
             {{ block.content }}
             {% if block.list %}
-            <ul class="list list--subjects columns">
+            <ul class="list list--links list--chevrons columns">
               {% for item in block.list %}
               <li class="list__item">
                 <a href="{{ item.href }}" class="list__link">{{ item.title }}</a><br>
-                <p>{{ item.text }}</p>
               </li>
               {% endfor %}
             </ul>
@@ -36,13 +35,17 @@
             {% endif %}
           </div>
         </div>
-        {% if block.image %}
-        <figure class="side-image col-md-6">
-          <img src="{{ relroot }}{{ block.image.src }}" alt="{{ block.image.alt }}" />
-          {% if block.image.description %}
-          <figcaption>{{ block.image.description }}</figcaption>
-          {% endif %}
-        </figure>
+        {% if block.figure %}
+        <div class="col-md-6">
+          <div class="content">
+            <figure class="side-image">
+              {% for image in block.figure.images %}
+              <img src="{{ relroot }}{{ image.src }}" class="responsive" width="{{ image.width }}" alt="{{ image.alt }}" />
+              {% endfor %}
+              <figcaption>{{ block.figure.description }}</figcaption>
+            </figure>
+          </div>
+        </div>
         {% endif %}
       </div>
     </div>
