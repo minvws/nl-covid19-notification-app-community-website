@@ -1,9 +1,31 @@
 <head>
     <meta charset="UTF-8">
+
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.data.translations.title[page.lang] }}{% endif %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{ site.data.translations.description[page.lang]}}" />
     <link href="{{relroot}}css/nl-design-system/uno/core/uno.css" rel="stylesheet">
     <link href="{{relroot}}css/main.css" rel="stylesheet">
     <!--link rel="shortcut icon" href="{{ relroot }}img/favicon.ico" type="image/x-icon"/-->
+
+<!-- Primary Meta Tags -->
+{% capture site_url %}
+{{site.url}}{{site.baseurl}}{{page.url}}
+{% endcapture %}
+<meta name="title" content="{{ page.title }}">
+<meta name="description" content="{{ page.subtitle }}">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ site_url }}">
+<meta property="og:title" content="{{ page.title }}">
+<meta property="og:description" content="{{ page.subtitle }}">
+<meta property="og:image" content="{{site.url}}{{site.baseurl}}/img/plaatje2.svg">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="{{ site_url }}">
+<meta property="twitter:title" content="{{ page.title }}">
+<meta property="twitter:description" content="{{ page.subtitle }}">
+<meta property="twitter:image" content="{{site.url}}{{site.baseurl}}/img/plaatje2.svg">
 </head>
