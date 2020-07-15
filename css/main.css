@@ -64,10 +64,16 @@
   line-height: 3rem;
 }
 
-.side-image {
-  padding-right: 2rem; 
-  float: right;
-  width: 360px;
+figcaption {
+  font-size: 2.3rem;
+  line-height: 3rem;
+  font-style: italic;
+  margin-top: 3rem;
+  margin-left: 0;
+}
+
+figure img {
+  margin: 0 auto;
 }
 
 ul.sharing li {
