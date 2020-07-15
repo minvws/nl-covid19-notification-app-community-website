@@ -1,9 +1,5 @@
-{% capture site_url %}
-{{site.url}}{{site.baseurl}}{{page.url}}
-{% endcapture %}
-{% capture site_url_escaped  %}
-{{ site_url | uri_scape }}
-{% endcapture %}
+{% capture site_url %}{{site.url}}{{site.baseurl}}{{page.url}}{% endcapture %}
+{% capture site_url_escaped  %}{{ site_url | uri_scape }}{% endcapture %}
 <div id="social" class="col-md-offset-1 col-md-10">
   <div class="content">
     <h2>Deel deze pagina</h2>

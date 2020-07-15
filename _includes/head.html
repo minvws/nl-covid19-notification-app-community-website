@@ -6,9 +6,7 @@
   <link href="{{relroot}}css/main.css" rel="stylesheet">
   <!--link rel="shortcut icon" href="{{ relroot }}img/favicon.ico" type="image/x-icon"/-->
 
-  {% capture site_url %}
-  {{site.url}}{{site.baseurl}}{{page.url}}
-  {% endcapture %}
+  {% capture site_url %}{{site.url}}{{site.baseurl}}{{page.url}}{% endcapture %}
   <!-- Primary Meta Tags -->
   <title>{{ page.title }}</title>
   <meta name="title" content="{{ page.title }}">
