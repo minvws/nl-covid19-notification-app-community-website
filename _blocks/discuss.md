@@ -2,30 +2,51 @@
 lang: nl
 index: 1
 title: Praat mee
-subtitle: Ga in gesprek met het team en andere geïntereseerden via de CodeForNL Slack community
-list:
- - title: "Kanaal #notificatie-app"
-   href: "https://app.slack.com/client/T68FXPFQV/C011R4NCFMJ"
-   text: Algemene discussies en vragen over het project
- - title: "Kanaal #notificatie-app-design"
-   href: "https://app.slack.com/client/T68FXPFQV/C014YNF14MN"
-   text: Denk mee over het ontwerp, de user experience en accessibility.
- - title: "Kanaal #notificatie-app-communicatie-community"
-   href: "https://app.slack.com/client/T68FXPFQV/C013YSJ5Z63"
-   text: Help mee met de communicatie en communityvorming
- - title: "Overige kanalen"
-   href: "https://app.slack.com/client/T68FXPFQV/browse-channels"
-   text: Er zijn ook kanalen over backend, architectuur, Android en iOS development, Bluetooth, etc.
+subtitle: Ga direct in gesprek met het CoronaMelder team en andere geïnteresseerden via de CodeForNL Slack community. 
+ 
+
+# list:
+#  - title: "Kanaal #notificatie-app"
+#    href: "https://app.slack.com/client/T68FXPFQV/C011R4NCFMJ"
+#    text: Algemene discussies en vragen over het project
+#  - title: "Kanaal #notificatie-app-design"
+#    href: "https://app.slack.com/client/T68FXPFQV/C014YNF14MN"
+#    text: Denk mee over het ontwerp, de user experience en accessibility.
+#  - title: "Kanaal #notificatie-app-communicatie-community"
+#    href: "https://app.slack.com/client/T68FXPFQV/C013YSJ5Z63"
+#    text: Help mee met de communicatie en communityvorming
+#  - title: "Overige kanalen"
+#    href: "https://app.slack.com/client/T68FXPFQV/browse-channels"
+#    text: Er zijn ook kanalen over backend, architectuur, Android en iOS development, Bluetooth, etc.
 button:
   text: Klik hier voor een uitnodiging voor de Slack
   icon: slack
   href: "https://doemee.codefor.nl"
+
+figure:
+  images:
+  - alt: Slack
+    src: img/Slack_RGB.svg
+  - alt: CodeForNL
+    src: img/codefornl.png
+  description: Zo een 500 mensen praten mee op de Slack community van Code for NL – praat ook mee!
+
 ---
-Stichting [Code for NL](https://www.codefor.nl) is de Nederlandse community van developers en designers die samenwerken aan een open, eerlijke, en inclusieve digitale overheid en samenleving.
+Slack is een chatplatform waarmee je eenvoudig en open over verschillende
+onderwerpen met elkaar praat, in zogenaamde Slack-kanalen, bijv.;
+#notificatie-app gaat in het algemeen over de app en #notificatie-app-design
+gaat over het ontwerp van de app.
 
-Het Covid-19 notificatie-app project is te gast bij de Code for NL community op Slack. Code for NL is niet direct aan het project verbonden.
+Stichting [Code for NL](https://www.codefor.nl) is de Nederlandse community
+van developers en designers die samenwerken aan een open, eerlijke, en
+inclusieve digitale overheid en samenleving. Het Covid-19 notificatie-app
+project is te gast bij de Code for NL community op Slack. Code for NL is niet
+direct aan het project verbonden. De Slack community Code for NL streeft een
+vriendelijke, constructieve en respectvolle sfeer na. Er is alle ruimte voor
+verschillende meningen. Aanmelden verloopt simpel, en je kunt Slack via een
+Internet browser gebruiken, of door de Slack-applicatie te downloaden (op je
+computer, tablet of mobiel).
 
-We streven naar een vriendelijke, constructieve en respectvolle sfeer. We werken er samen en we gaan het gesprek aan. Er is alle ruimte voor verschillende meningen.
-
-
-**Let op**: naast de kanalen met het `#notificatie-app` voorvoegsel zul je ook andere kanalen zien die niet gerelateerd zijn aan dit project. Uiteraard ben je ook in die kanalen welkom.
+**Let op**: naast de kanalen met het `#notificatie-app` voorvoegsel zul je ook
+andere kanalen zien die niet gerelateerd zijn aan dit project. Uiteraard ben
+je ook in die kanalen welkom.

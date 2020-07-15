@@ -1,17 +1,41 @@
 ---
 lang: nl
-index: 2
-title: Ontwikkel mee
-subtitle: De app is open-source software en je kunt de ontwikkeling volgen op GitHub.
+index: -18
+title: Ontwerp en Ontwikkel mee
+subtitle: De app is open-source 
 
-image:
-  src: img/plaatje.svg
-  alt: Drie personen in de buitenlucht. Een fietst, een zit, en een loopt.
-
+figure:
+  description: Via GitHub en Figma kunnen ontwerpers en ontwikkelaars hun feedback geven. Zo maken we de app nog robuuster
+  images:
+  - src: "img/GitHub_Logo.png"
+    alt: GitHub 
+  - src: "img/figma.svg"
+    alt: Figma
+    width: 120
+list:
+ - title: "Architectuur en requirements"
+   href: https://github.com/minvws/nl-covid19-notification-app-coordination
+ - title: "Figma Designs"
+   href: "https://github.com/minvws/nl-covid19-notification-app-design"
+ - title: "Android app"
+   href: "https://github.com/minvws/nl-covid19-notification-app-android"
+ - title: "iOS app"
+   href: "https://github.com/minvws/nl-covid19-notification-app-ios"
+ - title: "Backend code"
+   href: "https://github.com/minvws/nl-covid19-notification-app-backend"
 button:
   text: Naar het GitHub account van VWS
   icon: github
   href: "https://github.com/minvws"
 ---
-GitHub is een soort Google docs voor programmeercode en documentatie, waarmee software ontwikkelaars, designers, maar ook content specialisten samen kunnen werken. De nl-covid19-notification-app [repositories](https://nl.wikipedia.org/wiki/Pakketbron) horen bij de notificatie-app. Op het GitHub account van het Ministerie van Volksgezondheid, Welzijn en Sport (VWS) vind je tevens een repository voor het Coronavirus Data Dashboard, dat is een ander project.
-Om internationale samenwerking en code hergebruik te bevorderen, werken we op GitHub alleen in het Engels.
+Het ontwerp is in Figma (een online ontwerptool) na te slaan- je ziet live
+hoe het ontwerp ontstaat en verandert, en je kunt er direct feedback geven op
+ontwerpen. De app wordt ‘open source’ ontwikkeld - door iedereen te bekijken,
+feedback op te geven en te testen. Dit gebeurt via Github, een slim open
+ontwikkelsysteem dat door miljoenen mensen en veel organisaties over de hele
+wereld wordt gebruikt. Daar is zowel de backend- als de frontendcode na te
+slaan.
+ 
+Doe je ook mee? Jouw suggesties of input - vooral als je expert bent op een
+gebied - maken het verschil!
+
