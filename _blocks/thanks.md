@@ -34,7 +34,7 @@ Deze app kan helpen om mensen in Nederland weer gezonder, voorspoediger en vrije
 * Henry van der Wal
 * Ivonne Jansen-Dings
 * Jan Wind
-* Jelle Licht
+* [Jelle Licht](https://github.com/jellelicht)
 * Joost van der Ree
 * Jorn de Vries
 * Joshua Lückers
@@ -58,6 +58,7 @@ Deze app kan helpen om mensen in Nederland weer gezonder, voorspoediger en vrije
 * Rob Hulst
 * Ron van den Berg
 * Rob Voets
+* Salim Hadri
 * Sander van Hulst
 * Sebastian Wachholz
 * [Sebass van Boxtel](https://github.com/SvanBoxel)
