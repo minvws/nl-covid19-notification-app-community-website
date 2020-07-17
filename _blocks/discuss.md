@@ -36,13 +36,18 @@ Slack is een chatplatform waarmee je eenvoudig en open over verschillende
 onderwerpen met elkaar praat, in zogenaamde Slack-kanalen.
 
 ### Uitgelichte Slack-Kanalen
-- title: **"#coronamelder"**
+ list:
+ - title: **"#coronamelder"**
+ href: "rechtstreekse url?"
  text: Algemene discussies en vragen over het project
 - title: **"#coronamelder-design"**
+ href: "rechtstreekse url?"
  text: Praat mee over het ontwerp, de user experience en accessibility.
 - title: **"coronamelder-architectuur"**
+ href: "rechtstreekse url?"
  text: Uitgebreide discussies over architectuur.
  - title: **"coronamelder-effectiveness"**
+ href: "rechtstreekse url?"
  text: Conversations about the effectiveness of the Dutch Exposure Notification app CoronaMelder. KPI's, impact, international comparitive studies, etc.
 
 Stichting [Code for NL](https://www.codefor.nl) is de Nederlandse community
