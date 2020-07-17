@@ -37,16 +37,12 @@ onderwerpen met elkaar praat, in zogenaamde Slack-kanalen.
 
 ### Uitgelichte Slack-Kanalen
 - title: **"#coronamelder"**
- href: "https://join.slack.com/share/zt-fwzth6yq-cKGlnaggohKwYZNlI1dVHw"
  text: Algemene discussies en vragen over het project
 - title: **"#coronamelder-design"**
- href: "https://join.slack.com/share/zt-g7y6d91c-sHHWGJdtqo_mslVzCuXNrg"
  text: Praat mee over het ontwerp, de user experience en accessibility.
 - title: **"coronamelder-architectuur"**
- href: "https://join.slack.com/share/zt-fzu87rn8-gG2zRED28VrBT8yoW_fWKQ"
  text: Uitgebreide discussies over architectuur.
  - title: **"coronamelder-effectiveness"**
- href: "https://join.slack.com/share/zt-fztxfjpw-VXBa47gcX5Ub5_OZWrJKyw"
  text: Conversations about the effectiveness of the Dutch Exposure Notification app CoronaMelder. KPI's, impact, international comparitive studies, etc.
 
 Stichting [Code for NL](https://www.codefor.nl) is de Nederlandse community
