@@ -15,7 +15,7 @@ button:
   icon: link-external
 ---
  
-De app wordt niet in één keer bedacht, een goed en met name bruikbaar ontwerp
+subtitle: De app wordt niet in één keer bedacht, een goed en met name bruikbaar ontwerp
 kost tijd.
 
 Hoe simpeler het er uiteindelijk uitziet en werkt, hoe meer ontwerprondes er
