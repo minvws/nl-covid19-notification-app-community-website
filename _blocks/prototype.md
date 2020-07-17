@@ -1,8 +1,7 @@
 ---
 lang: nl
 title: Prototype in ontwerp
-subtitle: De app wordt niet in één keer bedacht, een goed en met name bruikbaar ontwerp
-kost tijd.
+subtitle: De app wordt niet in één keer bedacht, een goed en met name bruikbaar ontwerp kost tijd.
 index: -19
 figure:
   description: |
