@@ -1,6 +1,8 @@
 ---
 lang: nl
 title: Prototype in ontwerp
+subtitle: De app wordt niet in één keer bedacht, een goed en met name bruikbaar ontwerp
+kost tijd.
 index: -19
 figure:
   description: |
@@ -15,9 +17,6 @@ button:
   icon: link-external
 ---
  
-subtitle: De app wordt niet in één keer bedacht, een goed en met name bruikbaar ontwerp
-kost tijd.
-
 Hoe simpeler het er uiteindelijk uitziet en werkt, hoe meer ontwerprondes er
 hebben plaatsgevonden. Het moet allemaal kloppen én wij zijn niet de
 gebruiker - alleen door samen te ontwerpen en het ontwerp uit te proberen bij
