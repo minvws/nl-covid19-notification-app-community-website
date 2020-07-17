@@ -13,7 +13,6 @@ figure:
 #   text: Bekijk de gebruikersonderzoeken
 #   href: 
 #   icon: link-external
----
 
 subtitle: De App moet eenvoudig zijn in gebruik, logisch en begrijpelijkvoor iedereen.
 ---
