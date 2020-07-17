@@ -13,9 +13,9 @@ figure:
 #   text: Bekijk de gebruikersonderzoeken
 #   href: 
 #   icon: link-external
----
 
-De App moet eenvoudig zijn in gebruik, logisch en begrijpelijkvoor iedereen.
+subtitle: De App moet eenvoudig zijn in gebruik, logisch en begrijpelijkvoor iedereen.
+---
 Daarom worden er zoveel mogelijk mensen betrokken; via vragenlijsten,
 interviews en gebruikersonderzoeken - iedereens mening telt.
 
