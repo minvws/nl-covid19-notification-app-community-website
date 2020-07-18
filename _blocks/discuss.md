@@ -33,20 +33,34 @@ figure:
 
 ---
 Slack is een chatplatform waarmee je eenvoudig en open over verschillende
-onderwerpen met elkaar praat, in zogenaamde Slack-kanalen, bijv.;
-#notificatie-app gaat in het algemeen over de app en #notificatie-app-design
-gaat over het ontwerp van de app.
+onderwerpen met elkaar praat, in zogenaamde Slack-kanalen.
+
+### Uitgelichte Slack-Kanalen
+ list:
+ - title: **"#coronamelder"**
+ href: "rechtstreekse url?"
+ text: Algemene discussies en vragen over het project
+- title: **"#coronamelder-design"**
+ href: "rechtstreekse url?"
+ text: Praat mee over het ontwerp, de user experience en accessibility.
+- title: **"coronamelder-architectuur"**
+ href: "rechtstreekse url?"
+ text: Uitgebreide discussies over architectuur.
+ - title: **"coronamelder-effectiveness"**
+ href: "rechtstreekse url?"
+ text: Conversations about the effectiveness of the Dutch Exposure Notification app CoronaMelder. KPI's, impact, international comparitive studies, etc.
 
 Stichting [Code for NL](https://www.codefor.nl) is de Nederlandse community
 van developers en designers die samenwerken aan een open, eerlijke, en
 inclusieve digitale overheid en samenleving. Het Covid-19 notificatie-app
 project is te gast bij de Code for NL community op Slack. Code for NL is niet
-direct aan het project verbonden. De Slack community Code for NL streeft een
-vriendelijke, constructieve en respectvolle sfeer na. Er is alle ruimte voor
+direct aan het project verbonden. 
+
+De Slack community Code for NL streeft een vriendelijke, constructieve en respectvolle sfeer na. Er is alle ruimte voor
 verschillende meningen. Aanmelden verloopt simpel, en je kunt Slack via een
 Internet browser gebruiken, of door de Slack-applicatie te downloaden (op je
 computer, tablet of mobiel).
 
-**Let op**: naast de kanalen met het `#notificatie-app` voorvoegsel zul je ook
+**Let op**: naast de kanalen met het `#coronamelder` voorvoegsel zul je ook
 andere kanalen zien die niet gerelateerd zijn aan dit project. Uiteraard ben
-je ook in die kanalen welkom.
+je ook in die kanalen welkom om mee te praten.
