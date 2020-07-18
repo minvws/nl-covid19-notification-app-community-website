@@ -16,5 +16,5 @@ figure:
  
 Een dagelijks bijgewerkt zogenaamd ‘Trello-board’ waar hulpvragen worden bijgehouden. Hulpvragen worden ook het Slackkanaal #notificatie-app-hulpvragen geplaatst.
  
-Hierbij moet je denken aan vragen voor vertalers, fornt end ontwikkelhulp of hulp  bij het testen en de communicatie.
+Hierbij moet je denken aan vragen voor vertalers, front-end ontwikkelhulp of hulp  bij het testen en de communicatie.
 
