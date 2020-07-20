@@ -60,7 +60,7 @@ Deze app kan helpen om mensen in Nederland weer gezonder, voorspoediger en vrije
 * Rob Voets
 * Sander van Hulst
 * Sebastian Wachholz
-* [Sebass van Boxtel](https://github.com/SvanBoxel)
+* [Sebass van Boxel](https://github.com/SvanBoxel)
 * Stefan van de Weijer
 * Thomas Visser
 * Tijl Houtbeckers
