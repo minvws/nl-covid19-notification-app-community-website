@@ -2,9 +2,9 @@
 layout: hero
 title: Samen kom je verder
 navtitle: Home
-subtitle: | 
+subtitle: |
   Het team van het Ministerie van Volksgezondheid, Welzijn en Sport dat de
-  Nederlandse Covid-19 app ontwikkelt, wordt ondersteund door een groot
+  CoronaMelder app ontwikkelt, wordt ondersteund door een groot
   aantal vrijwilligers en externen. Iedereen kan meedoen; jouw mening en
   expertise wordt op prijs gesteld en kan het verschil maken!
 lang: nl
