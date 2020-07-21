@@ -31,7 +31,7 @@ button:
 Het ontwerp is in Figma (een online ontwerptool) na te slaan- je ziet live
 hoe het ontwerp ontstaat en verandert, en je kunt er direct feedback geven op
 ontwerpen. De app wordt ‘open source’ ontwikkeld - door iedereen te bekijken,
-feedback op te geven en te testen. Dit gebeurt via Github, een slim open
+feedback op te geven en te testen. Dit gebeurt via GitHub, een slim open
 ontwikkelsysteem dat door miljoenen mensen en veel organisaties over de hele
 wereld wordt gebruikt. Daar is zowel de backend- als de frontendcode na te
 slaan.
