@@ -2,16 +2,17 @@
 lang: nl
 index: -18
 title: Ontwerp en Ontwikkel mee
-subtitle: De app is open-source 
+subtitle: De app is open-source
 
 figure:
   description: Via GitHub en Figma kunnen ontwerpers en ontwikkelaars hun feedback geven. Zo maken we de app nog robuuster
   images:
   - src: "img/GitHub_Logo.png"
-    alt: GitHub 
+    alt: GitHub
   - src: "img/figma.svg"
     alt: Figma
     width: 120
+list_title: Repositories
 list:
  - title: "Architectuur en requirements"
    href: https://github.com/minvws/nl-covid19-notification-app-coordination
@@ -35,7 +36,7 @@ feedback op te geven en te testen. Dit gebeurt via GitHub, een slim open
 ontwikkelsysteem dat door miljoenen mensen en veel organisaties over de hele
 wereld wordt gebruikt. Daar is zowel de backend- als de frontendcode na te
 slaan.
- 
+
 Doe je ook mee? Jouw suggesties of input - vooral als je expert bent op een
 gebied - maken het verschil!
 

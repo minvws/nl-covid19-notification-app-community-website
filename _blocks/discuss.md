@@ -2,22 +2,27 @@
 lang: nl
 index: 1
 title: Praat mee
-subtitle: Ga direct in gesprek met het CoronaMelder team en andere geïnteresseerden via de CodeForNL Slack community. 
- 
+subtitle: Ga direct in gesprek met het CoronaMelder team en andere geïnteresseerden via de CodeForNL Slack community.
 
-# list:
-#  - title: "Kanaal #notificatie-app"
-#    href: "https://app.slack.com/client/T68FXPFQV/C011R4NCFMJ"
-#    text: Algemene discussies en vragen over het project
-#  - title: "Kanaal #notificatie-app-design"
-#    href: "https://app.slack.com/client/T68FXPFQV/C014YNF14MN"
-#    text: Denk mee over het ontwerp, de user experience en accessibility.
-#  - title: "Kanaal #notificatie-app-communicatie-community"
-#    href: "https://app.slack.com/client/T68FXPFQV/C013YSJ5Z63"
-#    text: Help mee met de communicatie en communityvorming
-#  - title: "Overige kanalen"
-#    href: "https://app.slack.com/client/T68FXPFQV/browse-channels"
-#    text: Er zijn ook kanalen over backend, architectuur, Android en iOS development, Bluetooth, etc.
+
+list_title: Slackkanalen
+list:
+ - title: "#coronamelder"
+   href: "https://app.slack.com/client/T68FXPFQV/C011R4NCFMJ"
+ - title: "#coronamelder-design"
+   href: "https://app.slack.com/client/T68FXPFQV/C014YNF14MN"
+ - title: "#coronamelder-juridisch"
+   href: "https://app.slack.com/client/T68FXPFQV/C016QPWT8SG"
+ - title: "#coronamelder-effectiveness"
+   href: "https://app.slack.com/client/T68FXPFQV/C0175NYCNLC"
+ - title: "#coronamelder-ios"
+   href: "https://app.slack.com/client/T68FXPFQV/C014UMBE890"
+ - title: "#coronamelder-android"
+   href: "https://app.slack.com/client/T68FXPFQV/C014DKLJAJ2"
+ - title: "#coronamelder-architectuur"
+   href: "https://app.slack.com/client/T68FXPFQV/C014HGWA0F4"
+ - title: "Overige kanalen"
+   href: "https://app.slack.com/client/T68FXPFQV/browse-channels"
 button:
   text: Klik hier voor een uitnodiging voor de Slack
   icon: slack
@@ -33,13 +38,11 @@ figure:
 
 ---
 Slack is een chatplatform waarmee je eenvoudig en open over verschillende
-onderwerpen met elkaar praat, in zogenaamde Slack-kanalen, bijv.;
-#notificatie-app gaat in het algemeen over de app en #notificatie-app-design
-gaat over het ontwerp van de app.
+onderwerpen met elkaar praat, in zogenaamde Slack-kanalen.
 
 Stichting [Code for NL](https://www.codefor.nl) is de Nederlandse community
 van developers en designers die samenwerken aan een open, eerlijke, en
-inclusieve digitale overheid en samenleving. Het Covid-19 notificatie-app
+inclusieve digitale overheid en samenleving. Het CoronaMelder
 project is te gast bij de Code for NL community op Slack. Code for NL is niet
 direct aan het project verbonden. De Slack community Code for NL streeft een
 vriendelijke, constructieve en respectvolle sfeer na. Er is alle ruimte voor
@@ -47,6 +50,6 @@ verschillende meningen. Aanmelden verloopt simpel, en je kunt Slack via een
 Internet browser gebruiken, of door de Slack-applicatie te downloaden (op je
 computer, tablet of mobiel).
 
-**Let op**: naast de kanalen met het `#notificatie-app` voorvoegsel zul je ook
+**Let op**: naast de kanalen met het `#coronamelder` voorvoegsel zul je ook
 andere kanalen zien die niet gerelateerd zijn aan dit project. Uiteraard ben
 je ook in die kanalen welkom.

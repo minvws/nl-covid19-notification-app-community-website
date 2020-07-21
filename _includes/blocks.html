@@ -12,6 +12,9 @@
               <p class="content__header-paragraph">{{ block.subtitle }}</p>
             </header>
             {{ block.content }}
+            {% if block.list_title %}
+            <h3>{{ block.list_title }}</h3>
+            {% endif %}
             {% if block.list %}
             <ul class="list list--links list--chevrons columns">
               {% for item in block.list %}
