@@ -12,7 +12,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: "Set date of inloopuur to next friday"
       run: |
-        next_friday=$(date --date "13:00 next friday" --iso-8601=minutes)
+        next_friday=$(date --date "16:00 next friday" --iso-8601=minutes)
         sed -i "s/^date: .*$/date: $next_friday/" ./_events/inloopuur.md
     - name: "Commit changes"
       run: |
