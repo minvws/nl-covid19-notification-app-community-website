@@ -1,6 +1,6 @@
 ---
 title: Ask-me-anything met Jelle Prins & Joris Leker
-date: 2020-08-19 16:00
+date: 2020-08-06 16:00
 image: ./img/plaatje2.svg
 lang: nl
 ---
