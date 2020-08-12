@@ -1,10 +1,10 @@
-# Community website COVID-19 notificatieapp
+# Community website CoronaMelder App
 
-The community website is an entry point for the community of people that are interested in learning more about the notification app and that may be willing to help out.
+The community website is an entry point for the community of people that are interested in learning more about the CoronaMelder app and that may be willing to help out.
 
 ## About
 
-* Slack channel for this website: [#notificatie-app-community-website](https://app.slack.com/client/T68FXPFQV/C015XMBESN4/thread/G014WUU0T19-1591803954.001400) ([join via Code for NL](https://www.codefor.nl))
+* Slack channel for this website: [#coronamelder-community-website](https://app.slack.com/client/T68FXPFQV/C015XMBESN4/thread/G014WUU0T19-1591803954.001400) ([join via Code for NL](https://www.codefor.nl))
 * [Latest designs in Figma](https://www.figma.com/file/Dmo5nuXcaoxMaNTXDFc9Cw/Status-dashboard-COVID-19-notificatieapp?node-id=453%3A0)
 * Website (beta): [View the current community website on GitHub.io](https://minvws.github.io/nl-covid19-notification-app-community-website/)
 * Project lead: Anouschka Scholten
