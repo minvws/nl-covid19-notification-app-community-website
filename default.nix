@@ -25,6 +25,7 @@ in
   };
   update-dependencies = pkgs.writeScript "update-dependencies"
     ''
+      rm Gemfile.lock
       ${pkgs.niv}/bin/niv update
       ${pkgs.bundix}/bin/bundix -l bundix
     '';
