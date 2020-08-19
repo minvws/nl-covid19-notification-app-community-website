@@ -26,7 +26,7 @@
               <time datetime="{{ event.date  | date_to_xmlschema }}">
                 {{ event.date | date: "%d/%m/%Y - %R"}}
               </time>
-              {{ event.excerpt }}
+              {{ event.content }}
               <a href="events#{{ event.id }}">Klik hier voor meer informatie</a>
             </div>
           </div>
