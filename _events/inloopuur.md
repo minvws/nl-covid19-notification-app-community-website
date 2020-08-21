@@ -1,6 +1,6 @@
 ---
 title: Community inloopspreekuur
-date: 2020-08-21T16:00+00:00
+date: 2020-08-28T16:00+00:00
 lang: nl
 image: ./img/plaatje.svg
 ---
