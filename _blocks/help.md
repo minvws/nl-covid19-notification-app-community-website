@@ -14,7 +14,5 @@ figure:
     alt: Trello
 ---
 
-Een dagelijks bijgewerkt zogenaamd ‘Trello-board’ waar hulpvragen worden bijgehouden. Hulpvragen worden ook het Slackkanaal #coronamelder-hulpvragen geplaatst.
-
-Hierbij moet je denken aan vragen voor vertalers, front-end ontwikkelhulp of hulp  bij het testen en de communicatie.
+Een zogenaamd ‘Trello-board’ waar hulpvragen worden bijgehouden. Hierbij moet je denken aan vragen voor vertalers, ontwikkelhulp of hulp  bij het testen en de communicatie.
 
