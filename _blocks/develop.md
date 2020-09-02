@@ -29,14 +29,9 @@ button:
   icon: github
   href: "https://github.com/minvws"
 ---
-Het ontwerp is in Figma (een online ontwerptool) na te slaan- je ziet live
-hoe het ontwerp ontstaat en verandert, en je kunt er direct feedback geven op
-ontwerpen. De app wordt ‘open source’ ontwikkeld - door iedereen te bekijken,
-feedback op te geven en te testen. Dit gebeurt via GitHub, een slim open
-ontwikkelsysteem dat door miljoenen mensen en veel organisaties over de hele
-wereld wordt gebruikt. Daar is zowel de backend- als de frontendcode na te
-slaan.
-
-Doe je ook mee? Jouw suggesties of input - vooral als je expert bent op een
-gebied - maken het verschil!
+Het ontwerp is in Figma (een online ontwerptool) na te slaan- je kon live zien
+hoe ontwerpen ontstaan en veranderen, en je kon er direct feedback geven op
+ontwerpen. De app is ‘open source’ ontwikkeld - door iedereen te bekijken en te testen via GitHub, 
+een slim open ontwikkelsysteem dat door miljoenen mensen en veel organisaties over de hele
+wereld wordt gebruikt. 
 
