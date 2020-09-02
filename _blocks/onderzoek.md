@@ -23,7 +23,7 @@ Er wordt uitgebreid onderzoek gedaan bij verschillende doelgroepen van de
 app. Bijvoorbeeld hoe contactonderzoek bij de GGD werkt; gebruikersonderzoek,
 bijv. hoe doorlopen gebruikers de app na installatie; en
 toegankelijkheidsonderzoek, is de app toegankelijk genoeg voor app-gebruikers
-met een beperking. Iedereen kan meekijken wat er uit die onderzoeken komt.
+met een beperking, zoals blinden. Iedereen kan meekijken wat er uit die onderzoeken komt.
 
 [Bekijk de gebruikersonderzoeken](https://github.com/minvws/nl-covid19-notification-app-design#overzicht)
 
