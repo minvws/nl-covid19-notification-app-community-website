@@ -74,4 +74,4 @@ Onze dank gaat ook uit naar alle mensen die geholpen hebben, maar hier liever ni
 
 Tot slot een bijzondere dank aan het hele team van [PrivateTracer](https://www.privatetracer.org/). Grote delen van de code van dit vrijwillige initiatief zijn gebruikt voor de CoronaMelder en verschillende mensen in het team van het Ministerie van VWS komen uit dit initiatief. Op verzoek van PrivateTracer staan te teamleden hier niet individueel genoemd, maar you know who you are. Dank!
 
-Missen er mensen in deze lijst? Voeg ze graag toe via een pull request of contacteer Edo Plantinga via Slack. We laten graag zien wie waaraan heeft bijgedragen, dus als je wilt aanvullen wat je bijdrage was, dan heel graag.
+Missen er mensen in deze lijst? Voeg ze graag toe via een pull request of contacteer Edo Plantinga via Slack. Voel je vooral vrij om je eigen naam toe te voegen. 
