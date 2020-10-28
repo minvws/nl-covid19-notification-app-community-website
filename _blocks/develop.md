@@ -1,11 +1,11 @@
 ---
 lang: nl
 index: -18
-title: Ontwerp en Ontwikkel mee
+title: Bekijk de code en de ontwerpen
 subtitle: De app is open-source
 
 figure:
-  description: Via GitHub en Figma kunnen ontwerpers en ontwikkelaars hun feedback geven. Zo maken we de app nog robuuster
+  description: Via GitHub en Figma konden ontwerpers en ontwikkelaars hun feedback geven. Zo maken we de app nog robuuster
   images:
   - src: "img/GitHub_Logo.png"
     alt: GitHub
@@ -31,6 +31,6 @@ button:
 ---
 Het ontwerp is in Figma (een online ontwerptool) na te slaan- je kon live zien
 hoe ontwerpen ontstaan en veranderen, en je kon er direct feedback geven op
-ontwerpen. De app is ‘open source’ ontwikkeld: de broncode van de app is door iedereen te bekijken en te testen via GitHub. 
+ontwerpen. De app is ‘open source’ ontwikkeld: de broncode van de app is door iedereen te bekijken, te testen en te verbeteren via GitHub. 
 
 
