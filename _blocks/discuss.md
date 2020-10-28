@@ -4,25 +4,6 @@ index: 1
 title: Praat mee
 subtitle: Ga direct in gesprek met het CoronaMelder team en andere geïnteresseerden via de CodeForNL Slack community.
 
-
-list_title: Slackkanalen
-list:
- - title: "#coronamelder"
-   href: "https://app.slack.com/client/T68FXPFQV/C011R4NCFMJ"
- - title: "#coronamelder-design"
-   href: "https://app.slack.com/client/T68FXPFQV/C014YNF14MN"
- - title: "#coronamelder-juridisch"
-   href: "https://app.slack.com/client/T68FXPFQV/C016QPWT8SG"
- - title: "#coronamelder-effectiveness"
-   href: "https://app.slack.com/client/T68FXPFQV/C0175NYCNLC"
- - title: "#coronamelder-ios"
-   href: "https://app.slack.com/client/T68FXPFQV/C014UMBE890"
- - title: "#coronamelder-android"
-   href: "https://app.slack.com/client/T68FXPFQV/C014DKLJAJ2"
- - title: "#coronamelder-architectuur"
-   href: "https://app.slack.com/client/T68FXPFQV/C014HGWA0F4"
- - title: "Overige kanalen"
-   href: "https://app.slack.com/client/T68FXPFQV/browse-channels"
 button:
   text: Klik hier voor een uitnodiging voor de Slack
   icon: slack
@@ -46,7 +27,7 @@ inclusieve digitale overheid en samenleving. Het CoronaMelder
 project is te gast bij de Code for NL community op Slack. Code for NL is niet
 direct aan het project verbonden. 
 
-De CoronaMelder community streeft een
+De CoronaMelder community streeft een 
 vriendelijke, constructieve en respectvolle sfeer na. Er is alle ruimte voor
 verschillende meningen. 
 
