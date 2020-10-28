@@ -5,8 +5,8 @@ The community website is an entry point for the community of people that are int
 ## About
 
 * Slack channel for this website: [#coronamelder-community-website](https://app.slack.com/client/T68FXPFQV/C015XMBESN4/thread/G014WUU0T19-1591803954.001400) ([join via Code for NL](https://www.codefor.nl))
-* [Latest designs in Figma](https://www.figma.com/file/Dmo5nuXcaoxMaNTXDFc9Cw/Status-dashboard-COVID-19-notificatieapp?node-id=453%3A0)
-* Website (beta): [View the current community website on GitHub.io](https://minvws.github.io/nl-covid19-notification-app-community-website/)
+* [Designs in Figma](https://www.figma.com/file/Dmo5nuXcaoxMaNTXDFc9Cw/Status-dashboard-COVID-19-notificatieapp?node-id=453%3A0)
+* Community website (beta): [View the current community website on GitHub.io](https://minvws.github.io/nl-covid19-notification-app-community-website/)
 * Project lead: Anouschka Scholten
 
 ## Goals:
@@ -15,7 +15,6 @@ These goals are maintained by the community manager of the Ministry of Health. S
 
 * Offer the community some overview
 * Improve the onboarding for new community members (also for non-techies, see below)
-* Landing page for GitHub, Trello, Slack etc. Point out the main features of the community
 * Give props to the most active community members
 * A showcase page for the openness of the project, that will hopefully inspire other government projects to be more open too
 * Set the right atmosphere and expectations for people that want to help out
@@ -40,10 +39,7 @@ Over time, we hope to engage a broader group of people, that can also help with 
 
 ## To do
 
-* Move this to do list to a GitHub project board
 * Translation of content into English
-* Find a project maintainer
-* User test the webpage, make modifications to make sure the website is understandable for a broader audience
 
 ## How is this project set up?
 
