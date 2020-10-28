@@ -16,7 +16,7 @@ list_title: Repositories
 list:
  - title: "Architectuur en requirements"
    href: https://github.com/minvws/nl-covid19-notification-app-coordination
- - title: "Figma Designs"
+ - title: "Ontwerpen"
    href: "https://github.com/minvws/nl-covid19-notification-app-design"
  - title: "Android app"
    href: "https://github.com/minvws/nl-covid19-notification-app-android"
@@ -31,7 +31,6 @@ button:
 ---
 Het ontwerp is in Figma (een online ontwerptool) na te slaan- je kon live zien
 hoe ontwerpen ontstaan en veranderen, en je kon er direct feedback geven op
-ontwerpen. De app is ‘open source’ ontwikkeld - door iedereen te bekijken en te testen via GitHub, 
-een slim open ontwikkelsysteem dat door miljoenen mensen en veel organisaties over de hele
-wereld wordt gebruikt. 
+ontwerpen. De app is ‘open source’ ontwikkeld: de broncode van de app is door iedereen te bekijken en te testen via GitHub. 
+
 
