@@ -17,7 +17,9 @@ button:
 ---
  
 De ontwikkeling van CoronaMelder gebeurt in alle openheid. Dit betekent dat de code en ontwerpen van de app voor iedereen zichtbaar zijn. 
+
 Honderden vrijwilligers geven hun mening en suggesties voor de (door) ontwikkeling van CoronaMelder. Waaronder designers, ontwikkelaars, testers, mensen uit belangenverenigingen, juristen, wetenschappers, epidemiologen, communicatieadviseurs en toegankelijkheidsexperts. 
+
 Dit maakt de app veiliger, gebruiksvriendelijker en beter. En het vergroot het vertrouwen in de app: iedereen met de juiste kennis kan de werking precies controleren. 
 
 Wil je nog eens teruglezen hoe de app is ontstaan? Bekijk dan deze achtergrondartikelen over: 
