@@ -26,3 +26,4 @@ Wil je nog eens teruglezen hoe de app is ontstaan? Bekijk dan deze achtergrondar
 * [Open ontwikkeling van de app](https://tweakers.net/reviews/7994/veilige-en-nuttige-corona-app-kan-dat.html)
 * [Privacy en veiligheid](https://tweakers.net/reviews/8242/coronamelder-privacy-en-veiligheid-audits-pentests-en-meer.html)
 * [Het open ontwerppoces](https://www.frankwatching.com/archive/2020/10/08/coronamelder-making-of/)
+* [Hoe maak je je project open? Tips en stappen](https://klipklaar.nl/een-veranderende-organisatie/hoe-ga-je-open/)
