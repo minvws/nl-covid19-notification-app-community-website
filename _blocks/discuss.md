@@ -21,7 +21,7 @@ figure:
 Slack is een chatplatform waarmee je eenvoudig en open over verschillende
 onderwerpen met elkaar praat.
 
-Stichting [Code for NL](https://www.codefor.nl) is de Nederlandse community
+Stichting [Code for NL](https://codefor.nl) is de Nederlandse community
 van developers en designers die samenwerken aan een open, eerlijke, en
 inclusieve digitale overheid en samenleving. Het CoronaMelder
 project is te gast bij de Code for NL community op Slack. Code for NL is niet
